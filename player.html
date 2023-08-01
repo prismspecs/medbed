@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fullscreen Video Example</title>
+</head>
+<body>
+    <video id="fullscreenVideo" controls autoplay>
+        <source src="video.mp4" type="video/mp4">
+        <!-- Add additional source elements for different video formats -->
+    </video>
+
+    <script>
+        const videoElement = document.getElementById('fullscreenVideo');
+        const timestampsFile = 'timestamps.json';
+
+        // Function to fetch the timestamps from timestamps.json
+        function getTimestamps() {
+            return fetch(timestampsFile)
+                .then((response) => response.json())
+                .catch((error) => {
+                    console.error('Error reading timestamps.json:', error);
+                    return [];
+                });
+        }
+
+        // Function to find and output matching data based on the video's current time
+        function findMatchingData(timestamps, currentTime, matchedTimestamps) {
+            const matchingData = timestamps.find((item) => Math.abs(currentTime - item.time) < 2); // Allow a 2-second tolerance
+            if (matchingData && !matchedTimestamps.has(matchingData.time)) {
+                matchedTimestamps.add(matchingData.time);
+                console.log('Matching data:', matchingData);
+            }
+        }
+
+        // Check if Fullscreen API is supported
+        if (videoElement.requestFullscreen) {
+            // When the video is loaded, request fullscreen mode and start checking for matching timestamps
+            videoElement.addEventListener('loadeddata', async () => {
+                try {
+                    await videoElement.requestFullscreen();
+                } catch (error) {
+                    console.error('Fullscreen request denied:', error);
+                }
+
+                // Get the timestamps from timestamps.json
+                const timestamps = await getTimestamps();
+
+                // Use a Set to store matched timestamps
+                const matchedTimestamps = new Set();
+
+                // Listen for the timeupdate event to continuously monitor video progress
+                videoElement.addEventListener('timeupdate', () => {
+                    const currentTime = videoElement.currentTime;
+                    findMatchingData(timestamps, currentTime, matchedTimestamps);
+                });
+            });
+        }
+    </script>
+</body>
+</html>

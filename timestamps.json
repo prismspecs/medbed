@@ -1,0 +1,32 @@
+[
+  {
+    "time": 0,
+    "selectedOption": "Lights",
+    "integerValue": 55
+  },
+  {
+    "time": 1,
+    "selectedOption": "Motor 1",
+    "integerValue": 23
+  },
+  {
+    "time": 33,
+    "selectedOption": "Motor 1",
+    "integerValue": 0
+  },
+  {
+    "time": 2,
+    "selectedOption": "Motor 1",
+    "integerValue": 0
+  },
+  {
+    "time": 5,
+    "selectedOption": "Motor 2",
+    "integerValue": 0
+  },
+  {
+    "time": 7,
+    "selectedOption": "Motor 1",
+    "integerValue": 0
+  }
+]
