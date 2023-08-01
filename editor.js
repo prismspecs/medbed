@@ -1,3 +1,7 @@
+// all values run 0-100
+// motors 0-100
+// lights 0-100 off -> full brightness
+
 const video = document.getElementById('video');
 const timestampsContainer = document.getElementById('timestampsContainer');
 const addTimestampBtn = document.getElementById('addTimestampBtn');
@@ -42,7 +46,7 @@ function updateTimestampsList() {
         optionSelect.addEventListener('change', (event) => {
             timestampsArray[index].selectedOption = event.target.value;
         });
-        ['Motor 1', 'Motor 2', 'Motor 3', 'Lights'].forEach((option) => {
+        ['Kipp/Tilt', 'Doors', 'Scanner 1', 'Lights 1', 'Lights 2', 'Lights 3', 'Lights 4'].forEach((option) => {
             const optionElement = document.createElement('option');
             optionElement.value = option;
             optionElement.text = option;

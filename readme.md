@@ -1,6 +1,18 @@
+# Installation
+npm install mpv fs serialport
+brew install mpv
+
+
+# To do:
+Add video load button to change video
+
 # Important Notes
 Make sure that "full-screen-api.allow-trusted-requests-only" is false in Firefox about:config settings.
-
++ [New 24v motor](https://www.reichelt.de/de/de/dc-motor-buerstenlos-24-v-188-w-60-ncm-act-57blf03-p271496.html?nbc=1&trstct=lsbght_sldr::116956&&r=1)
++ [Video on how to control big motors with Arduino](https://www.youtube.com/watch?v=gpHCOny_neQ)
++ [Motor Shield R3 w Stepper tutorial](https://www.makerguides.com/arduino-motor-shield-stepper-motor-tutorial/)
++ [List of Motor Drivers](https://www.pololu.com/category/11/brushed-dc-motor-drivers)
++ [Another motor driver](https://www.omc-stepperonline.com/digital-brushless-dc-motor-driver-12v-24vdc-max-5a-150w-bld-405s)
 
 
 Create a website that has a video "video.mp4" which takes up at maximum 50% of the page width. There should be a toolbar below the video with a button "Add Timestamp". There should be a JSON array "timestampArray".

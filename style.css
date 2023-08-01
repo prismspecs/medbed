@@ -5,6 +5,11 @@ body {
     padding: 0;
 }
 
+video::-webkit-media-controls-panel {
+    display: flex !important;
+    opacity: 1 !important;
+}
+
 .container {
     display: flex;
     height: 100vh;
