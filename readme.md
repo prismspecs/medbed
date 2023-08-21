@@ -8,6 +8,14 @@ Add video load button to change video
 
 # Important Notes
 Make sure that "full-screen-api.allow-trusted-requests-only" is false in Firefox about:config settings.
+
+
+# Installation
+
+
+# Setup and Useage
+
+
 + [New 24v motor](https://www.reichelt.de/de/de/dc-motor-buerstenlos-24-v-188-w-60-ncm-act-57blf03-p271496.html?nbc=1&trstct=lsbght_sldr::116956&&r=1)
 + [Video on how to control big motors with Arduino](https://www.youtube.com/watch?v=gpHCOny_neQ)
 + [Motor Shield R3 w Stepper tutorial](https://www.makerguides.com/arduino-motor-shield-stepper-motor-tutorial/)
