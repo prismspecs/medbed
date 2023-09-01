@@ -25,7 +25,7 @@
 
         // Function to find and output matching data based on the video's current time
         function findMatchingData(timestamps, currentTime, matchedTimestamps) {
-            const matchingData = timestamps.find((item) => Math.abs(currentTime - item.time) < 2); // Allow a 2-second tolerance
+            const matchingData = timestamps.find((item) => Math.abs(currentTime - item.time) < 1); // Allow a 1-second tolerance
             if (matchingData && !matchedTimestamps.has(matchingData.time)) {
                 matchedTimestamps.add(matchingData.time);
                 console.log('Matching data:', matchingData);
