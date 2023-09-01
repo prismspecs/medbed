@@ -1,6 +1,6 @@
 const fs = require('fs-extra');
-const { spawn } = require('child_process');
 const { SerialPort } = require('serialport');
+const Mpv = require('node-mpv');
 
 // read timestamps from JSON file
 async function readTimestamps() {
@@ -13,27 +13,27 @@ async function readTimestamps() {
     }
 }
 
-// play video in full screen
+// play video with MPV
 function playVideo() {
-    const videoPlayer = spawn('vlc', ['video.mp4', '--fullscreen', '--video-on-top', '--loop']);
-    // const videoPlayer = spawn('vlc', ['video.mp4']);
-    videoPlayer.on('error', (err) => {
-        console.error('Video player error:', err.message);
+    const mpv = new Mpv({
+        'audio_only': false,
+        'fullscreen': false,
+        'loop': true,
+        'volume': 100
     });
 
-    videoPlayer.stdout.on('data', (data) => {
-
-        // any messages from VLC?
-        console.log(data.toString());
-
-        // detect the video restart message and increment loop count
-        if (data.toString().includes('playing again')) {
-            videoLoopCount++;
-            console.log(`Video looped through once. Loop count: ${videoLoopCount}`);
-        }
+    // restart mpv when stopped
+    mpv.on('stopped', () => {
+        mpv.load('video.mp4');
+        mpv.play();
     });
 
-    return videoPlayer;
+    // start the video
+    mpv.load('video.mp4');
+    // play the video
+    mpv.play();
+
+    return mpv;
 }
 
 // serial communication with Arduino
@@ -72,23 +72,36 @@ function processTimestamps(timestamps, videoPlayer) {
     const alreadyProcessed = new Set();
 
     const interval = setInterval(() => {
-        const currentTime = new Date() - startTime;
-        for (const timestamp of timestamps) {
-            if (
-                !alreadyProcessed.has(timestamp.time) &&
-                currentTime >= timestamp.time * 1000
-            ) {
-                const arduinoData = `${timestamp.selectedOption},${timestamp.integerValue}\n`;
-                arduinoPort.write(arduinoData);
-                console.log('Sent to Arduino:', arduinoData);
+        //const currentTime = new Date() - startTime;
 
-                alreadyProcessed.add(timestamp.time);
+        // get current video time
+        videoPlayer.getProperty('time-pos').then((value) => {
+            console.log('Current Video Time:', value);
+            const currentTime = value;
+
+
+            for (const timestamp of timestamps) {
+                if (
+                    !alreadyProcessed.has(timestamp.time) &&
+                    currentTime >= timestamp.time
+                ) {
+                    const arduinoData = `${timestamp.selectedOption},${timestamp.integerValue}\n`;
+                    arduinoPort.write(arduinoData);
+                    console.log('Timestamp:', timestamp.time, ' Sent to Arduino:', arduinoData);
+
+                    alreadyProcessed.add(timestamp.time);
+                }
             }
-        }
+        });
+
     }, 100); // check every...
 
-    videoPlayer.on('exit', () => {
+    videoPlayer.on('stopped', () => {
         clearInterval(interval);
         console.log('Video playback has ended.');
     });
+
+
 }
+
+startVideoAndTimestamps();
