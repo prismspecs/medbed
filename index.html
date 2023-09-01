@@ -16,36 +16,38 @@
                 Your browser does not support the video tag.
             </video>
             <div id="currentTimeDisplay">00:00</div>
+            <button id="changeVidBtn">Load Video</button>
 
             <script>
                 // Get references to the video element and the div to display time
-                const videoElement = document.getElementById('video');
+                const videoElement = document.getElementById('myVideo');
                 const currentTimeDisplay = document.getElementById('currentTimeDisplay');
-            
+
                 // Update the div content with the current video time
                 function updateCurrentTime() {
-                  const currentTime = videoElement.currentTime;
-                  const minutes = Math.floor(currentTime / 60);
-                  const seconds = Math.floor(currentTime % 60);
-                  const formattedTime = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
-                  currentTimeDisplay.textContent = formattedTime;
+                    const currentTime = videoElement.currentTime;
+                    const minutes = Math.floor(currentTime / 60);
+                    const seconds = Math.floor(currentTime % 60);
+                    const formattedTime = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+                    currentTimeDisplay.textContent = formattedTime;
                 }
-            
+
                 // Update the current time when the video is playing or seeking
                 videoElement.addEventListener('timeupdate', updateCurrentTime);
-            
+
                 // Also, update the time once on page load (optional)
                 updateCurrentTime();
-              </script>
+
+            </script>
 
         </div>
         <div class="content-container">
             <div class="timestamps-container" id="timestampsContainer"></div>
             <div class="toolbar">
                 <button id="addTimestampBtn">Add Timestamp</button>
-                <button id="saveBtn">Save</button>
+                <button id="saveBtn">Save Timecodes</button>
                 <input type="file" id="loadFile" style="display: none;">
-                <label for="loadFile"><button id="loadBtn">Load</button></label>
+                <label for="loadFile"><button id="loadBtn">Load Timecodes</button></label>
             </div>
         </div>
     </div>

@@ -46,7 +46,7 @@ function updateTimestampsList() {
         optionSelect.addEventListener('change', (event) => {
             timestampsArray[index].selectedOption = event.target.value;
         });
-        ['Kipp/Tilt', 'Doors', 'Scanner 1', 'Lights 1', 'Lights 2', 'Lights 3', 'Lights 4'].forEach((option) => {
+        ['Kipp/Tilt', 'Doors', 'Scanner 1', 'Lights 1', 'Lights 2', 'Lights 3', 'Lights 4', 'Lights 5 (space)'].forEach((option) => {
             const optionElement = document.createElement('option');
             optionElement.value = option;
             optionElement.text = option;
@@ -143,3 +143,18 @@ loadBtn.addEventListener('click', function () {
 
 // Initialize the list of timestamps
 updateTimestampsList();
+
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    // Handle the "Load Video" button click event
+    document.getElementById('changeVidBtn').addEventListener('click', function () {
+        const file = event.target.files[0];
+        if (file) {
+            const objectURL = URL.createObjectURL(file);
+            videoElement.src = objectURL;
+            videoElement.load(); // Reload the video to apply the new source
+            videoElement.play(); // Start playing the new video
+        }
+    });
+});
