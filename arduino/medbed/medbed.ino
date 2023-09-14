@@ -26,26 +26,47 @@ LEDs:
 */
 
 // SCANNER
-int SCANNER_PIN_FR = 2;
-int SCANNER_PIN_AVI = 3;
+#define SCANNER_PIN_FR 2
+#define SCANNER_PIN_AVI 3
 long SCANNER_start_time = 0;
-int SCANNER_scan_duration = 5000;
+int SCANNER_scan_duration = 10000;  // one full sweep is really 20 seconds
 
 bool SCANNER_forward = false;
 bool SCANNER_reverse = false;
 int SCANNER_speed = 50;
 
+// BED TILT
+#define TILT_FWD_PIN 5
+#define TILT_REV_PIN 6
+
+// DOORS
+#define DOORS_FWD_PIN 9
+#define DOORS_REV_PIN 10
+
+// ROOM LIGHTS
+#define ROOMLIGHT_1_PIN 7
+#define ROOMLIGHT_2_PIN 8
+
+
 void setup() {
+
+  // set up pins
+  pinMode(SCANNER_PIN_FR, OUTPUT);
+  pinMode(ROOMLIGHT_1_PIN, OUTPUT);
+  pinMode(ROOMLIGHT_2_PIN, OUTPUT);
+
   // set home positions
   // move stepper until stop...
 
-  Serial.begin(9600);
+  Serial.begin(38400);
 }
 
 void loop() {
   if (Serial.available() > 0) {
     // read the incoming serial data until a newline character
     String receivedString = Serial.readStringUntil('\n');
+    Serial.print("received: ");
+    Serial.println(receivedString);
 
     // find the position of the comma character
     int commaIndex = receivedString.indexOf(',');
@@ -56,17 +77,38 @@ void loop() {
       // extract the integer value after the comma
       int value = receivedString.substring(commaIndex + 1).toInt();
 
+      if (command == "DEBUG") {
+        if (value == 9) {
+
+          analogWrite(SCANNER_PIN_AVI, SCANNER_speed);
+          digitalWrite(SCANNER_PIN_FR, HIGH);
+
+        } else if (value == 11) {
+
+          analogWrite(SCANNER_PIN_AVI, SCANNER_speed);
+          digitalWrite(SCANNER_PIN_FR, LOW);
+
+        }
+      }
+
       if (command == "Scanner") {
         if (value == 0) {
           stopScan();
         } else if (value == 1) {
           startScan();
         }
-      } else if (command == "Lights") {
-        // digitalWrite(ledPin, HIGH);
-        // delay(value);
-        // digitalWrite(ledPin, LOW);
-        // delay(value);
+      } else if (command == "Roomlights1") {
+        if(value==0) {
+          digitalWrite(ROOMLIGHT_1_PIN, LOW);
+        } else if(value==1){
+          digitalWrite(ROOMLIGHT_1_PIN, HIGH);
+        }
+      }else if (command == "Roomlights2") {
+        if(value==0) {
+          digitalWrite(ROOMLIGHT_2_PIN, LOW);
+        } else if(value==1){
+          digitalWrite(ROOMLIGHT_2_PIN, HIGH);
+        }
       }
 
       // implement other actions for different commands here
@@ -79,13 +121,18 @@ void loop() {
 }
 
 void startScan() {
+  Serial.println("starting scan");
   SCANNER_forward = true;
   SCANNER_reverse = false;
+
+  analogWrite(SCANNER_PIN_AVI, SCANNER_speed);
+  digitalWrite(SCANNER_PIN_FR, HIGH);
 
   SCANNER_start_time = millis();
 }
 
 void stopScan() {
+  Serial.println("stopping scan");
   analogWrite(SCANNER_PIN_AVI, 0);
 }
 
@@ -110,16 +157,30 @@ void scanner() {
 
   long currentTime = millis();
 
-  if (currentTime > SCANNER_start_time + SCANNER_scan_duration) {
+  if (SCANNER_forward || SCANNER_reverse) {
 
-    if (SCANNER_forward) {
-      SCANNER_forward = false;
-      SCANNER_reverse = true;
-    } else if (SCANNER_reverse) {
-      SCANNER_forward = false;
-      SCANNER_reverse = false;
-      // stop it
-      stopScan();
+    if (currentTime > SCANNER_start_time + SCANNER_scan_duration) {
+
+      Serial.println("Scanner timer went off");
+
+      if (SCANNER_forward) {
+        SCANNER_forward = false;
+        SCANNER_reverse = true;
+        SCANNER_start_time = millis();
+
+        // switch to reverse
+        digitalWrite(SCANNER_PIN_FR, LOW);
+        analogWrite(SCANNER_PIN_AVI, SCANNER_speed);
+
+        Serial.println("scan has gone all the way forward, returning");
+      } else if (SCANNER_reverse) {
+        SCANNER_forward = false;
+        SCANNER_reverse = false;
+        // switch to forward (for later)
+        digitalWrite(SCANNER_PIN_FR, HIGH);
+        // stop it
+        stopScan();
+      }
     }
   }
 }

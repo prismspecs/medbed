@@ -15,7 +15,7 @@ function addTimestamp() {
     const currentTime = Math.floor(video.currentTime);
     const newTimestamp = {
         time: currentTime,
-        selectedOption: 'Motor 1',
+        selectedOption: 'Tilt',
         integerValue: 0,
     };
     timestampsArray.push(newTimestamp);
@@ -46,7 +46,7 @@ function updateTimestampsList() {
         optionSelect.addEventListener('change', (event) => {
             timestampsArray[index].selectedOption = event.target.value;
         });
-        ['Kipp/Tilt', 'Doors', 'Scanner 1', 'Lights 1', 'Lights 2', 'Lights 3', 'Lights 4', 'Lights 5 (space)'].forEach((option) => {
+        ['Tilt', 'Doors', 'Scanner', 'Roomlights 1', 'Roomlights 2', 'LEDs'].forEach((option) => {
             const optionElement = document.createElement('option');
             optionElement.value = option;
             optionElement.text = option;

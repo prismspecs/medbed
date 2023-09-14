@@ -1,47 +1,17 @@
 [
   {
-    "time": 0,
-    "selectedOption": "Lights",
-    "integerValue": 55
-  },
-  {
-    "time": 2,
-    "selectedOption": "Lights",
-    "integerValue": 1000
-  },
-  {
-    "time": 5,
-    "selectedOption": "Lights",
-    "integerValue": 2000
-  },
-  {
-    "time": 10,
-    "selectedOption": "Lights",
-    "integerValue": 3000
-  },
-  {
     "time": 1,
-    "selectedOption": "Motor 1",
-    "integerValue": 23
+    "selectedOption": "Tilt",
+    "integerValue": 1
   },
   {
-    "time": 33,
-    "selectedOption": "Motor 1",
-    "integerValue": 0
+    "time": 6,
+    "selectedOption": "Scanner",
+    "integerValue": 1
   },
   {
-    "time": 2,
-    "selectedOption": "Motor 1",
-    "integerValue": 0
-  },
-  {
-    "time": 5,
-    "selectedOption": "Motor 2",
-    "integerValue": 0
-  },
-  {
-    "time": 7,
-    "selectedOption": "Motor 1",
-    "integerValue": 0
+    "time": 12,
+    "selectedOption": "Roomlights 1",
+    "integerValue": 1
   }
 ]

@@ -2,11 +2,22 @@ const fs = require('fs-extra');
 const { spawn } = require('child_process');
 const { SerialPort } = require('serialport');
 
+const port = '/dev/cu.usbmodem1101';
+const baudRate = 38400;
 // read timestamps from JSON file
 async function readTimestamps() {
     try {
-        const data = await fs.readFile('timestamps.json');
-        return JSON.parse(data);
+
+        const data = await fs.readFile('timestamps.json', 'utf8');
+
+        const jsonArray = JSON.parse(data);
+        jsonArray.forEach((entry, index) => {
+            entry.id = index + 1;
+        });
+
+        console.log(jsonArray);
+
+        return jsonArray;
     } catch (error) {
         console.error('Error reading timestamps:', error.message);
         return [];
@@ -15,8 +26,14 @@ async function readTimestamps() {
 
 // play video in full screen
 function playVideo() {
-    const videoPlayer = spawn('vlc', ['video.mp4', '--fullscreen', '--video-on-top', '--loop']);
-    // const videoPlayer = spawn('vlc', ['video.mp4']);
+    const videoPlayer = spawn('/Applications/VLC.app/Contents/MacOS/VLC', [
+        'video.mp4',
+        '--fullscreen',
+        '--video-on-top',
+        '--loop',
+        '--extraintf', 'rc'
+    ]);
+
     videoPlayer.on('error', (err) => {
         console.error('Video player error:', err.message);
     });
@@ -33,11 +50,13 @@ function playVideo() {
         }
     });
 
+   
+
     return videoPlayer;
 }
 
 // serial communication with Arduino
-const arduinoPort = new SerialPort({ path: '/dev/ttyACM0', baudRate: 9600 }, (error) => {
+const arduinoPort = new SerialPort({ path: port, baudRate: baudRate }, (error) => {
     if (error) {
         console.error('Error opening serial port:', error.message);
     } else {
@@ -85,6 +104,10 @@ function processTimestamps(timestamps, videoPlayer) {
                 alreadyProcessed.add(timestamp.time);
             }
         }
+
+        // testing...
+        videoPlayer.stdin.write("--rc-show-pos");
+
     }, 100); // check every...
 
     videoPlayer.on('exit', () => {
