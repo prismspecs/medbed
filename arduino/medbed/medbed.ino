@@ -34,6 +34,12 @@ int SCANNER_scan_duration = 10000;  // one full sweep is really 20 seconds
 bool SCANNER_forward = false;
 bool SCANNER_reverse = false;
 int SCANNER_speed = 50;
+// scanner lights
+#include <Adafruit_NeoPixel.h>
+#define LEDS_PIN 11
+#define NUM_LEDS 120
+Adafruit_NeoPixel pixels(NUM_LEDS, LEDS_PIN, NEO_GRB + NEO_KHZ800);
+
 
 // BED TILT
 #define TILT_FWD_PIN 5
@@ -59,6 +65,9 @@ void setup() {
   // move stepper until stop...
 
   Serial.begin(38400);
+
+  // set up LEDs
+  pixels.begin();  // INITIALIZE NeoPixel strip object (REQUIRED)
 }
 
 void loop() {
@@ -87,7 +96,6 @@ void loop() {
 
           analogWrite(SCANNER_PIN_AVI, SCANNER_speed);
           digitalWrite(SCANNER_PIN_FR, LOW);
-
         }
       }
 
@@ -98,17 +106,19 @@ void loop() {
           startScan();
         }
       } else if (command == "Roomlights1") {
-        if(value==0) {
+        if (value == 0) {
           digitalWrite(ROOMLIGHT_1_PIN, LOW);
-        } else if(value==1){
+        } else if (value == 1) {
           digitalWrite(ROOMLIGHT_1_PIN, HIGH);
         }
-      }else if (command == "Roomlights2") {
-        if(value==0) {
+      } else if (command == "Roomlights2") {
+        if (value == 0) {
           digitalWrite(ROOMLIGHT_2_PIN, LOW);
-        } else if(value==1){
+        } else if (value == 1) {
           digitalWrite(ROOMLIGHT_2_PIN, HIGH);
         }
+      } else if (command == "LEDs") {
+        handleLEDs(value);
       }
 
       // implement other actions for different commands here
@@ -118,6 +128,22 @@ void loop() {
 
   // check on scanner
   scanner();
+}
+
+void handleLEDs(int val) {
+  switch (val) {
+    case 0:
+      setAllLeds(0, 0, 0, 0);
+      break;
+  }
+}
+
+void setAllLeds(int r, int g, int b, int brightness) {
+  for (int i = 0; i < pixels.numPixels(); i++) {
+    pixels.setPixelColor(r, g, b);
+  }
+  pixels.setBrightness(brightness);
+  pixels.show();
 }
 
 void startScan() {
