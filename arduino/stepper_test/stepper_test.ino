@@ -14,7 +14,7 @@ REF- is black from hall sensor
 ENBL to ground
 BRK to 5v
 AVI to PWM (pin 6) on Arduino
-GND shared ground w Arduino
+GND shared ground w Arduino  
 
 the BRK (brake) is a momentary brake. at 5v (HIGH) it is off. at GND (LOW) it is on, and stops it immediately.
 

@@ -25,15 +25,20 @@ LEDs:
 
 */
 
+#define BAUD_RATE 38400
+
 // SCANNER
 #define SCANNER_PIN_FR 2
 #define SCANNER_PIN_AVI 3
 long SCANNER_start_time = 0;
-int SCANNER_scan_duration = 10000;  // one full sweep is really 20 seconds
+// duration for speed 80 = 7000
+// duration for speed 150 = 5000
+// duration for speed 200 = 4000
+int SCANNER_scan_duration = 4000;  // one full sweep is really 20 seconds
 
 bool SCANNER_forward = false;
 bool SCANNER_reverse = false;
-int SCANNER_speed = 50;
+int SCANNER_speed = 200;
 // scanner lights
 #include <Adafruit_NeoPixel.h>
 #define LEDS_PIN 11
@@ -60,11 +65,14 @@ void setup() {
   pinMode(SCANNER_PIN_FR, OUTPUT);
   pinMode(ROOMLIGHT_1_PIN, OUTPUT);
   pinMode(ROOMLIGHT_2_PIN, OUTPUT);
+  pinMode(TILT_FWD_PIN, OUTPUT);
+  pinMode(TILT_REV_PIN, OUTPUT);
+
 
   // set home positions
   // move stepper until stop...
 
-  Serial.begin(38400);
+  Serial.begin(BAUD_RATE);
 
   // set up LEDs
   pixels.begin();  // INITIALIZE NeoPixel strip object (REQUIRED)
@@ -96,29 +104,22 @@ void loop() {
 
           analogWrite(SCANNER_PIN_AVI, SCANNER_speed);
           digitalWrite(SCANNER_PIN_FR, LOW);
+        } else if (value == 0) {
+
+          stopScan();
         }
       }
 
       if (command == "Scanner") {
-        if (value == 0) {
-          stopScan();
-        } else if (value == 1) {
-          startScan();
-        }
+        handleScanner(value);
       } else if (command == "Roomlights1") {
-        if (value == 0) {
-          digitalWrite(ROOMLIGHT_1_PIN, LOW);
-        } else if (value == 1) {
-          digitalWrite(ROOMLIGHT_1_PIN, HIGH);
-        }
+        handleRoomLights(1, value);
       } else if (command == "Roomlights2") {
-        if (value == 0) {
-          digitalWrite(ROOMLIGHT_2_PIN, LOW);
-        } else if (value == 1) {
-          digitalWrite(ROOMLIGHT_2_PIN, HIGH);
-        }
+        handleRoomLights(2, value);
       } else if (command == "LEDs") {
         handleLEDs(value);
+      } else if (command == "Tilt") {
+        handleTilt(value);
       }
 
       // implement other actions for different commands here
@@ -130,17 +131,61 @@ void loop() {
   scanner();
 }
 
-void handleLEDs(int val) {
-  switch (val) {
+void handleLEDs(int value) {
+  switch (value) {
     case 0:
       setAllLeds(0, 0, 0, 0);
       break;
+    case 1:
+      setAllLeds(0, 0, 255, 255);
+      break;
+    case 2:
+      setAllLeds(255, 0, 0, 255);
+      break;
+  }
+}
+
+void handleTilt(int value) {
+  switch (value) {
+    case 0:
+
+      break;
+
+    case 1:  // Forward rotation
+      int forwardPWM = 100;
+      analogWrite(TILT_FWD_PIN, forwardPWM);
+      analogWrite(TILT_REV_PIN, 0);
+
+      break;
+
+    case 2:
+
+      break;
+  }
+}
+
+void handleScanner(int value) {
+  if (value == 0) {
+    stopScan();
+  } else if (value == 1) {
+    startScan();
+  }
+}
+
+void handleRoomLights(int lights, int value) {
+
+  int pin = (lights == 1) ? ROOMLIGHT_1_PIN : ROOMLIGHT_2_PIN;
+
+  if (value == 0) {
+    digitalWrite(pin, LOW);
+  } else if (value == 1) {
+    digitalWrite(pin, HIGH);
   }
 }
 
 void setAllLeds(int r, int g, int b, int brightness) {
   for (int i = 0; i < pixels.numPixels(); i++) {
-    pixels.setPixelColor(r, g, b);
+    pixels.setPixelColor(i, pixels.Color(r, g, b));
   }
   pixels.setBrightness(brightness);
   pixels.show();

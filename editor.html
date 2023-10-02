@@ -18,9 +18,17 @@
             <div id="currentTimeDisplay">00:00</div>
             <button id="changeVidBtn">Load Video</button>
 
+            <!-- change video when changeVidBtn is pressed -->
             <script>
+                const changeVidBtn = document.getElementById('changeVidBtn');
+                const videoElement = document.getElementById('video');
+
+                changeVidBtn.addEventListener('click', () => {
+                    // open file dialog
+                    const loadFile = document.getElementById('loadFile');
+                });
+        
                 // Get references to the video element and the div to display time
-                const videoElement = document.getElementById('myVideo');
                 const currentTimeDisplay = document.getElementById('currentTimeDisplay');
 
                 // Update the div content with the current video time

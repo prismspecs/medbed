@@ -2,6 +2,9 @@ const fs = require('fs-extra');
 const { SerialPort } = require('serialport');
 const Mpv = require('node-mpv');
 
+const port = "/dev/cu.usbmodem1101";
+const bRate = 38400;
+
 // read timestamps from JSON file
 async function readTimestamps() {
     try {
@@ -17,7 +20,7 @@ async function readTimestamps() {
 function playVideo() {
     const mpv = new Mpv({
         'audio_only': false,
-        'fullscreen': false,
+        'fullscreen': true,
         'loop': true,
         'volume': 100
     });
@@ -37,7 +40,7 @@ function playVideo() {
 }
 
 // serial communication with Arduino
-const arduinoPort = new SerialPort({ path: '/dev/ttyACM0', baudRate: 9600 }, (error) => {
+const arduinoPort = new SerialPort({ path: port, baudRate: bRate }, (error) => {
     if (error) {
         console.error('Error opening serial port:', error.message);
     } else {
@@ -49,6 +52,7 @@ const arduinoPort = new SerialPort({ path: '/dev/ttyACM0', baudRate: 9600 }, (er
 async function startVideoAndTimestamps() {
     try {
         const timestamps = await readTimestamps();
+        console.log('Timestamps:', timestamps);
         if (timestamps.length === 0) {
             console.error('No timestamps found.');
             return;
@@ -67,18 +71,15 @@ async function startVideoAndTimestamps() {
 }
 
 // process timestamps based on the current time of the video
+
+// process timestamps based on the current time of the video
 function processTimestamps(timestamps, videoPlayer) {
-    const startTime = new Date();
     const alreadyProcessed = new Set();
 
-    const interval = setInterval(() => {
-        //const currentTime = new Date() - startTime;
-
-        // get current video time
-        videoPlayer.getProperty('time-pos').then((value) => {
-            console.log('Current Video Time:', value);
-            const currentTime = value;
-
+    const interval = setInterval(async () => {
+        try {
+            const currentTime = await videoPlayer.getProperty('time-pos');
+            console.log('Current Video Time:', currentTime);
 
             for (const timestamp of timestamps) {
                 if (
@@ -92,16 +93,23 @@ function processTimestamps(timestamps, videoPlayer) {
                     alreadyProcessed.add(timestamp.time);
                 }
             }
-        });
-
+        } catch (error) {
+            console.error('Error getting video time:', error.message);
+        }
     }, 100); // check every...
 
     videoPlayer.on('stopped', () => {
         clearInterval(interval);
         console.log('Video playback has ended.');
     });
-
-
+    videoPlayer.on('start', () => {
+        console.log('Video player started.');
+    });
+    
+    videoPlayer.on('play', () => {
+        console.log('Video player is playing.');
+    });
+    
 }
 
 startVideoAndTimestamps();
