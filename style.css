@@ -86,3 +86,6 @@ button {
 .quick_actions .LEDs {
     background-color:#fbb;
 }
+.quick_actions .room_lights {
+    background-color:#bfb;
+}
