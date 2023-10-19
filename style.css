@@ -126,3 +126,9 @@ button {
 .quick_actions .scanner {
     background-color: #bbf;
 }
+.quick_actions .tilt {
+    background-color: #a5f;
+}
+.quick_actions .doors {
+    background-color: #5af;
+}
