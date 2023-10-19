@@ -132,6 +132,9 @@ void loop() {
 }
 
 void handleLEDs(int value) {
+  // 0 = off
+  // 1 = blue
+  // 2 = red
   switch (value) {
     case 0:
       setAllLeds(0, 0, 0, 0);

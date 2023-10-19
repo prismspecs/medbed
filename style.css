@@ -50,6 +50,19 @@ video {
     text-align: left;
     padding-right: 20px;
 }
+/* alternate colors */
+.timestamps-container .timestamp-item:nth-child(odd) {
+    background-color: #eee;
+}
+
+
+/* for input type number */
+.value, .time {
+    width:40px;
+}
+.comment {
+    width:160px;
+}
 
 ul {
     list-style: none;
@@ -64,28 +77,52 @@ li {
     display: flex;
     align-items: center;
     gap: 10px;
+    padding: 10px;
 }
 
 button {
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
+
 
 .save_load {
     /* display:block; */
     flex-basis: 100%;
 
 }
+
 .quick_actions {
     flex-basis: 100%;
 }
+
 .quick_actions div {
     /* position: absolute; */
-    display:block;
+    display: block;
     /* width:100%; */
 }
+
 .quick_actions .LEDs {
-    background-color:#fbb;
+    background-color: #fbb;
 }
+
+#btnLEDsOff {
+    background-color: #000;
+    color: #fff;
+}
+
+#btnLEDsRed {
+    background-color: #f00;
+}
+
+#btnLEDsBlue {
+    background-color: #00f;
+    color: #fff;
+}
+
 .quick_actions .room_lights {
-    background-color:#bfb;
+    background-color: #bfb;
+}
+
+.quick_actions .scanner {
+    background-color: #bbf;
 }
