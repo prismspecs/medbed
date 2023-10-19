@@ -27,7 +27,7 @@
                     // open file dialog
                     const loadFile = document.getElementById('loadFile');
                 });
-        
+
                 // Get references to the video element and the div to display time
                 const currentTimeDisplay = document.getElementById('currentTimeDisplay');
 
@@ -51,10 +51,21 @@
         <div class="content-container">
             <div class="timestamps-container" id="timestampsContainer"></div>
             <div class="toolbar">
-                <button id="addTimestampBtn">Add Timestamp</button>
-                <button id="saveBtn">Save Timecodes</button>
-                <input type="file" id="loadFile" style="display: none;">
-                <label for="loadFile"><button id="loadBtn">Load Timecodes</button></label>
+                
+                <div class="save_load">
+                    <button id="saveBtn">Save Timecodes</button>
+                    <input type="file" id="loadFile" style="display: none;">
+                    <label for="loadFile"><button id="loadBtn">Load Timecodes</button></label>
+                </div>
+                <div class="quick_actions">
+                    Quick Actions:
+                    <div>
+                        <button id="addTimestampBtn">Add Custom Timestamp</button>
+                    </div>
+                    <div class="LEDs">
+                        <button id="btnLEDsOff">Turn all LEDs off</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

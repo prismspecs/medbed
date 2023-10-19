@@ -1,7 +1,3 @@
-// all values run 0-100
-// motors 0-100
-// lights 0-100 off -> full brightness
-
 const video = document.getElementById('video');
 const timestampsContainer = document.getElementById('timestampsContainer');
 const addTimestampBtn = document.getElementById('addTimestampBtn');
