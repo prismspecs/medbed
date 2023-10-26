@@ -30,6 +30,7 @@ LEDs:
 // SCANNER
 #define SCANNER_PIN_FR 2
 #define SCANNER_PIN_AVI 3
+#define SCANNER_BRAKE_HOME 4
 long SCANNER_start_time = 0;
 // duration for speed 80 = 7000
 // duration for speed 150 = 5000
@@ -49,6 +50,8 @@ Adafruit_NeoPixel pixels(NUM_LEDS, LEDS_PIN, NEO_GRB + NEO_KHZ800);
 // BED TILT
 #define TILT_FWD_PIN 5
 #define TILT_REV_PIN 6
+int tiltSpeed = 255;
+#define TILT_DURATION 10000  // how long it takes to go all the way
 
 // DOORS
 #define DOORS_FWD_PIN 9
@@ -61,24 +64,71 @@ Adafruit_NeoPixel pixels(NUM_LEDS, LEDS_PIN, NEO_GRB + NEO_KHZ800);
 
 void setup() {
 
+  Serial.begin(BAUD_RATE);
+
   // set up pins
   pinMode(SCANNER_PIN_FR, OUTPUT);
+  pinMode(SCANNER_BRAKE_HOME, INPUT_PULLUP);
   pinMode(ROOMLIGHT_1_PIN, OUTPUT);
   pinMode(ROOMLIGHT_2_PIN, OUTPUT);
   pinMode(TILT_FWD_PIN, OUTPUT);
   pinMode(TILT_REV_PIN, OUTPUT);
 
-
-  // set home positions
-  // move stepper until stop...
-
-  Serial.begin(BAUD_RATE);
-
   // set up LEDs
   pixels.begin();  // INITIALIZE NeoPixel strip object (REQUIRED)
+
+  // set home positions
+  //scannerHome();
+  // tiltHome();
 }
 
+void scannerHome() {
+
+  Serial.println("moving scanner to home position");
+  SCANNER_forward = true;
+  SCANNER_reverse = false;
+
+  analogWrite(SCANNER_PIN_AVI, SCANNER_speed);
+  digitalWrite(SCANNER_PIN_FR, HIGH);
+
+  bool home = false;
+  while (!home) {
+    if (scannerHitStart()) {
+      stopScan();
+      home = true;
+    }
+    delay(2);
+  }
+  Serial.println("scanner got to home, stopping home sequence");
+}
+
+void tiltHome() {
+
+  // I think the theory here is to tilt it to one direction for one minute (to be sure it's all the way),
+  // then to tilt it back half way (we have to base this on the time it takes since there is no sensor)
+
+  Serial.println("moving tilt to home position");
+
+  // tilt forward
+  handleTilt(1);
+
+  delay(TILT_DURATION);
+
+  // tild backward
+  handleTilt(2);
+  delay(TILT_DURATION / 2);
+
+  Serial.println("tilt motor got to home, stopping home sequence");
+}
+
+
 void loop() {
+  // brake test
+  int brk = digitalRead(SCANNER_BRAKE_HOME);
+  if (brk == LOW) {
+    Serial.println("braking");
+  }
+
   if (Serial.available() > 0) {
     // read the incoming serial data until a newline character
     String receivedString = Serial.readStringUntil('\n');
@@ -142,23 +192,28 @@ void handleLEDs(int value) {
     case 2:
       setAllLeds(255, 0, 0, 255);
       break;
+    case 3:
+      setAllLeds(255, 255, 255, 255);
+      break;
   }
 }
 
 void handleTilt(int value) {
   switch (value) {
     case 0:
-
+      analogWrite(TILT_FWD_PIN, 0);
+      analogWrite(TILT_REV_PIN, 0);
       break;
 
     case 1:  // Forward rotation
-      int forwardPWM = 100;
-      analogWrite(TILT_FWD_PIN, forwardPWM);
+      analogWrite(TILT_FWD_PIN, tiltSpeed);
       analogWrite(TILT_REV_PIN, 0);
 
       break;
 
     case 2:
+      analogWrite(TILT_FWD_PIN, 0);
+      analogWrite(TILT_REV_PIN, tiltSpeed);
 
       break;
   }
@@ -205,11 +260,16 @@ void startScan() {
 void stopScan() {
   Serial.println("stopping scan");
   analogWrite(SCANNER_PIN_AVI, 0);
+  digitalWrite(SCANNER_PIN_FR, LOW);
 }
 
 bool scannerHitStart() {
   // check on scanner hitting the ends
-  return false;
+  if (digitalRead(SCANNER_BRAKE_HOME) == LOW) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 bool scannerHitEnd() {
@@ -255,3 +315,22 @@ void scanner() {
     }
   }
 }
+
+// void LEDheartBeat(int spd, int d) {
+//   for (int b = 20; b < 255-spd; b += spd) {
+//     for (int i = 0; i < strip.numPixels(); i++) {
+//       strip.setPixelColor(i, strip.Color(255, 255, 255));
+//     }
+//     strip.setBrightness(b);
+//     strip.show();
+//     delay(d);
+//   }
+//   for (int b = 255; b > 20+spd; b -= spd) {
+//     for (int i = 0; i < strip.numPixels(); i++) {
+//       strip.setPixelColor(i, strip.Color(255, 255, 255));
+//     }
+//     strip.setBrightness(b);
+//     strip.show();
+//     delay(d);
+//   }
+// }
