@@ -27,7 +27,7 @@
                     // open file dialog
                     const loadFile = document.getElementById('loadFile');
                 });
-        
+
                 // Get references to the video element and the div to display time
                 const currentTimeDisplay = document.getElementById('currentTimeDisplay');
 
@@ -51,10 +51,42 @@
         <div class="content-container">
             <div class="timestamps-container" id="timestampsContainer"></div>
             <div class="toolbar">
-                <button id="addTimestampBtn">Add Timestamp</button>
-                <button id="saveBtn">Save Timecodes</button>
-                <input type="file" id="loadFile" style="display: none;">
-                <label for="loadFile"><button id="loadBtn">Load Timecodes</button></label>
+                
+                <div class="save_load">
+                    <button id="saveBtn">Save Timecodes</button>
+                    <input type="file" id="loadFile" style="display: none;">
+                    <label for="loadFile"><button id="loadBtn">Load Timecodes</button></label>
+                </div>
+                <div class="quick_actions">
+                    Quick Actions:
+                    <div>
+                        <button id="btnAddTimestamps">Add Custom Timestamp</button>
+                    </div>
+                    <div class="LEDs">
+                        <button id="btnLEDsOff">Turn all LEDs off</button>
+                        <button id="btnLEDsRed">LEDs red</button>
+                        <button id="btnLEDsBlue">LEDs blue</button>
+                    </div>
+                    <div class="room_lights">
+                        <button id="btnRoomLights1Off">Turn room lights 1 off</button>
+                        <button id="btnRoomLights1On">Turn room lights 1 on</button>
+                        <button id="btnRoomLights2Off">Turn room lights 2 off</button>
+                        <button id="btnRoomLights2On">Turn room lights 2 on</button>
+                    </div>
+                    <div class="scanner">
+                        <button id="btnScannerHome">Move scanner home</button>
+                        <button id="btnScannerAway">Move scanner away</button>
+                    </div>
+                    <div class="tilt">
+                        <button id="btnTiltCenter">Tilt center</button>
+                        <button id="btnTiltForward">Tilt forward</button>
+                        <button id="btnTiltBackward">Tilt backward</button>
+                    </div>
+                    <div class="doors">
+                        <button id="btnDoorsOpen">Doors open</button>
+                        <button id="btnDoorsClose">Doors close</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
