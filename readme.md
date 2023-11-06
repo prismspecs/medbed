@@ -1,17 +1,9 @@
-# Installation
-npm install mpv fs serialport
-brew install mpv
+This works in concert with https://github.com/prismspecs/ofMedbed, which requires openFrameworks. The basic flow of the program is that the Arduino sketch (located in this repo under ...) acts as an interface to the sculpture hardware like the motor controller, etc. The openFrameworks app loads a video ("final.mov" in the bin/data directory of that app) and the timestamp.json file in the same folder. It uses that to send signals to the Arduino at specified times during the video. To edit the video, use editor.html in this repo, which will generate a timestamp file.
 
+# Installation
 
 # To do:
 Add video load button to change video
-
-# Important Notes
-Make sure that "full-screen-api.allow-trusted-requests-only" is false in Firefox about:config settings.
-
-
-# Installation
-
 
 # Setup and Useage
 
