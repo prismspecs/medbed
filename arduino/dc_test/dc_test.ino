@@ -21,7 +21,7 @@ void setup()
   pinMode(RPWM_Output, OUTPUT);
   pinMode(LPWM_Output, OUTPUT);
 
-  Serial.begin(9600);
+  Serial.begin(38400);
 }
 
 void loop()
