@@ -2,15 +2,15 @@
 
 pin layout
 Stepper Motor:
-  2 - F/R
-  3 - PWM / AVI
-  4 - button stop 1
-  12 - button stop 2
+  27 - F/R
+  26 - PWM / AVI
+  25 - button stop 1
+  33 - button stop 2
   ALM ?(not sure if necessary but setting aside)
 
 DC Bed Tilt:
-  5 - FORWARD PWM
-  6 - REVERSE PWM
+  0 - FORWARD PWM
+  4 - REVERSE PWM
 
 DC Door Open:
   9 - FORWARD PWM
@@ -21,16 +21,17 @@ Roomlight Relays:
   8 - Light 2
 
 LEDs:
-  11 - Neopixel data
+  12 - Neopixel data
 
 */
 
-#define BAUD_RATE 38400
+#define BAUD_RATE 115200
 
 // SCANNER
-#define SCANNER_PIN_FR 2
-#define SCANNER_PIN_AVI 3
-#define SCANNER_BRAKE_HOME 4
+#define SCANNER_PIN_FR 27
+#define SCANNER_PIN_AVI 26
+#define SCANNER_BRAKE_HOME 25
+#define SCANNER_BRAKE_AWAY 33
 long SCANNER_start_time = 0;
 // duration for speed 80 = 7000
 // duration for speed 150 = 5000
@@ -39,27 +40,28 @@ int SCANNER_scan_duration = 4000;  // one full sweep is really 20 seconds
 
 bool SCANNER_forward = false;
 bool SCANNER_reverse = false;
-int SCANNER_speed = 200;
+int SCANNER_speed = 90;
 // scanner lights
 #include <Adafruit_NeoPixel.h>
-#define LEDS_PIN 11
+#define LEDS_PIN 12
 #define NUM_LEDS 120
 Adafruit_NeoPixel pixels(NUM_LEDS, LEDS_PIN, NEO_GRB + NEO_KHZ800);
 
 
 // BED TILT
-#define TILT_FWD_PIN 5
-#define TILT_REV_PIN 6
+#define TILT_FWD_PIN 16
+#define TILT_REV_PIN 17
 int tiltSpeed = 255;
 #define TILT_DURATION 10000  // how long it takes to go all the way
 
 // DOORS
-#define DOORS_FWD_PIN 9
-#define DOORS_REV_PIN 10
+#define DOORS_FWD_PIN 0
+#define DOORS_REV_PIN 4
+int doorSpeed = 255;
 
 // ROOM LIGHTS
-#define ROOMLIGHT_1_PIN 7
-#define ROOMLIGHT_2_PIN 8
+#define ROOMLIGHT_1_PIN 5
+#define ROOMLIGHT_2_PIN 19
 
 
 void setup() {
@@ -78,7 +80,7 @@ void setup() {
   pixels.begin();  // INITIALIZE NeoPixel strip object (REQUIRED)
 
   // set home positions
-  //scannerHome();
+  // scannerHome();
   // tiltHome();
 }
 
@@ -154,6 +156,7 @@ void loop() {
 
           analogWrite(SCANNER_PIN_AVI, SCANNER_speed);
           digitalWrite(SCANNER_PIN_FR, LOW);
+
         } else if (value == 0) {
 
           stopScan();
@@ -170,6 +173,8 @@ void loop() {
         handleLEDs(value);
       } else if (command == "Tilt") {
         handleTilt(value);
+      } else if (command == "Doors") {
+        handleDoors(value);
       }
 
       // implement other actions for different commands here
@@ -179,6 +184,8 @@ void loop() {
 
   // check on scanner
   scanner();
+
+  delay(1);
 }
 
 void handleLEDs(int value) {
@@ -217,6 +224,27 @@ void handleTilt(int value) {
     case 2:
       analogWrite(TILT_FWD_PIN, 0);
       analogWrite(TILT_REV_PIN, tiltSpeed);
+
+      break;
+  }
+}
+
+void handleDoors(int value) {
+  switch (value) {
+    case 0:
+      analogWrite(DOORS_FWD_PIN, 0);
+      analogWrite(DOORS_REV_PIN, 0);
+      break;
+
+    case 1:  // Forward rotation
+      analogWrite(DOORS_FWD_PIN, doorSpeed);
+      analogWrite(DOORS_REV_PIN, 0);
+
+      break;
+
+    case 2:
+      analogWrite(DOORS_FWD_PIN, 0);
+      analogWrite(DOORS_REV_PIN, doorSpeed);
 
       break;
   }
