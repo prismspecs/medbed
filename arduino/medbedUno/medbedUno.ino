@@ -1,68 +1,42 @@
-
-/*
-
-pin layout
-Stepper Motor:
-  27 - F/R
-  26 - PWM / AVI
-  25 - button stop 1
-  33 - button stop 2
-  ALM ?(not sure if necessary but setting aside)
-
-DC Bed Tilt:
-  0 - FORWARD PWM
-  4 - REVERSE PWM
-
-DC Door Open:
-  9 - FORWARD PWM
-  10 - REVERSE PWM
-
-Roomlight Relays:
-  7 - Light 1
-  8 - Light 2
-
-LEDs:
-  12 - Neopixel data
-
-*/
+#define SCANNER_PIN_FR 2
+#define SCANNER_PIN_AVI 3
+#define SCANNER_BRAKE_HOME 4
+#define TILT_FWD_PIN 5
+#define TILT_REV_PIN 6
+#define ROOMLIGHT_1_PIN 7
+#define ROOMLIGHT_2_PIN 8
+#define DOORS_FWD_PIN 9
+#define DOORS_REV_PIN 10
+#define LEDS_PIN 11
+#define SCANNER_BRAKE_AWAY 12
 
 #define BAUD_RATE 115200
 
 // SCANNER
-#define SCANNER_PIN_FR 27
-#define SCANNER_PIN_AVI 26
-#define SCANNER_BRAKE_HOME 25
-#define SCANNER_BRAKE_AWAY 33
 long SCANNER_start_time = 0;
 // duration for speed 80 = 7000
 // duration for speed 150 = 5000
 // duration for speed 200 = 4000
 int SCANNER_scan_duration = 4000;  // one full sweep is really 20 seconds
-
 bool SCANNER_forward = false;
 bool SCANNER_reverse = false;
 int SCANNER_speed = 90;
-// scanner lights
+
+// LEDs SCANNER
 #include <Adafruit_NeoPixel.h>
-#define LEDS_PIN 12
 #define NUM_LEDS 120
 Adafruit_NeoPixel pixels(NUM_LEDS, LEDS_PIN, NEO_GRB + NEO_KHZ800);
 
 
 // BED TILT
-#define TILT_FWD_PIN 16
-#define TILT_REV_PIN 17
 int tiltSpeed = 255;
 #define TILT_DURATION 10000  // how long it takes to go all the way
 
 // DOORS
-#define DOORS_FWD_PIN 0
-#define DOORS_REV_PIN 4
 int doorSpeed = 255;
 
 // ROOM LIGHTS
-#define ROOMLIGHT_1_PIN 5
-#define ROOMLIGHT_2_PIN 19
+
 
 
 void setup() {
@@ -139,6 +113,8 @@ void loop() {
     String receivedString = Serial.readStringUntil('\n');
     Serial.print("received: ");
     Serial.println(receivedString);
+
+    
 
     // find the position of the comma character
     int commaIndex = receivedString.indexOf(',');
@@ -349,22 +325,3 @@ void scanner() {
     }
   }
 }
-
-// void LEDheartBeat(int spd, int d) {
-//   for (int b = 20; b < 255-spd; b += spd) {
-//     for (int i = 0; i < strip.numPixels(); i++) {
-//       strip.setPixelColor(i, strip.Color(255, 255, 255));
-//     }
-//     strip.setBrightness(b);
-//     strip.show();
-//     delay(d);
-//   }
-//   for (int b = 255; b > 20+spd; b -= spd) {
-//     for (int i = 0; i < strip.numPixels(); i++) {
-//       strip.setPixelColor(i, strip.Color(255, 255, 255));
-//     }
-//     strip.setBrightness(b);
-//     strip.show();
-//     delay(d);
-//   }
-// }
