@@ -211,7 +211,12 @@ updateTimestampsList();
 document.addEventListener("DOMContentLoaded", function () {
 
     // Handle the "Load Video" button click event
-    document.getElementById('changeVidBtn').addEventListener('click', function () {
+    changeVidBtn.addEventListener('click', function () {
+        loadFile.click(); // Trigger the file input click programmatically
+    });
+
+    // Handle the file input change event
+    loadFile.addEventListener('change', function (event) {
         const file = event.target.files[0];
         if (file) {
             const objectURL = URL.createObjectURL(file);

@@ -28,10 +28,10 @@
                     const loadFile = document.getElementById('loadFile');
                 });
 
-                // Get references to the video element and the div to display time
+                // get references to the video element and the div to display time
                 const currentTimeDisplay = document.getElementById('currentTimeDisplay');
 
-                // Update the div content with the current video time
+                // update the div content with the current video time
                 function updateCurrentTime() {
                     const currentTime = videoElement.currentTime;
                     const minutes = Math.floor(currentTime / 60);
@@ -40,10 +40,10 @@
                     currentTimeDisplay.textContent = formattedTime;
                 }
 
-                // Update the current time when the video is playing or seeking
+                // update the current time when the video is playing or seeking
                 videoElement.addEventListener('timeupdate', updateCurrentTime);
 
-                // Also, update the time once on page load (optional)
+                // also, update the time once on page load (optional)
                 updateCurrentTime();
             </script>
 
