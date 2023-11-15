@@ -6,19 +6,26 @@ const loadBtn = document.getElementById('loadBtn');
 // quick edits
 const btnAddTimestamps = document.getElementById('btnAddTimestamps');
 const btnLEDsOff = document.getElementById('btnLEDsOff');
-const btnLEDsRed = document.getElementById('btnLEDsRed');
 const btnLEDsBlue = document.getElementById('btnLEDsBlue');
+const btnLEDsRed = document.getElementById('btnLEDsRed');
+const btnLEDsWhite = document.getElementById('btnLEDsWhite');
+const btnLEDsCycle = document.getElementById('btnLEDsCycle');
 const btnRoomLights1Off = document.getElementById('btnRoomLights1Off');
 const btnRoomLights1On = document.getElementById('btnRoomLights1On');
 const btnRoomLights2Off = document.getElementById('btnRoomLights2Off');
 const btnRoomLights2On = document.getElementById('btnRoomLights2On');
-const btnScannerHome = document.getElementById('btnScannerHome');
-const btnScannerAway = document.getElementById('btnScannerAway');
-const btnTiltCenter = document.getElementById('btnTiltCenter');
+const btnScannerStop = document.getElementById('btnScannerStop');
+const btnScannerFeet = document.getElementById('btnScannerFeet');
+const btnScannerHead = document.getElementById('btnScannerHead');
+const btnScannerFullscan = document.getElementById('btnScannerFullscan');
+const btnScannerFreakout = document.getElementById('btnScannerFreakout');
+const btnTiltStop = document.getElementById('btnTiltStop');
 const btnTiltForward = document.getElementById('btnTiltForward');
 const btnTiltBackward = document.getElementById('btnTiltBackward');
-const btnDoorsOpen = document.getElementById('btnDoorsOpen');
+const btnTiltCenter = document.getElementById('btnTiltCenter');
+const btnDoorsStop = document.getElementById('btnDoorsStop');
 const btnDoorsClose = document.getElementById('btnDoorsClose');
+const btnDoorsOpen = document.getElementById('btnDoorsOpen');
 
 
 
@@ -178,17 +185,24 @@ btnAddTimestamps.addEventListener('click', addBlankTimestamp);
 btnLEDsOff.addEventListener('click', function () { addCustomTimestamp('LEDs', 0, "LEDs off"); });
 btnLEDsBlue.addEventListener('click', function () { addCustomTimestamp('LEDs', 1, "LEDs blue"); });
 btnLEDsRed.addEventListener('click', function () { addCustomTimestamp('LEDs', 2, "LEDs red"); });
+btnLEDsWhite.addEventListener('click', function () { addCustomTimestamp('LEDs', 3, "LEDs white"); });
+btnLEDsCycle.addEventListener('click', function () { addCustomTimestamp('LEDs', 4, "LEDs cycle"); });
 btnRoomLights1Off.addEventListener('click', function () { addCustomTimestamp('Roomlights 1', 0, "Roomlights 1 off"); });
 btnRoomLights1On.addEventListener('click', function () { addCustomTimestamp('Roomlights 1', 1, "Roomlights 1 on"); });
 btnRoomLights2Off.addEventListener('click', function () { addCustomTimestamp('Roomlights 2', 0, "Roomlights 2 off"); });
 btnRoomLights2On.addEventListener('click', function () { addCustomTimestamp('Roomlights 2', 1, "Roomlights 2 on"); });
-btnScannerHome.addEventListener('click', function () { addCustomTimestamp('Scanner', 0, "Scanner home"); });
-btnScannerAway.addEventListener('click', function () { addCustomTimestamp('Scanner', 1, "Scanner away"); });
-btnTiltCenter.addEventListener('click', function () { addCustomTimestamp('Tilt', 0, "Tilt center"); });
+btnScannerStop.addEventListener('click', function () { addCustomTimestamp('Scanner', 0, "Scanner stop"); });
+btnScannerFeet.addEventListener('click', function () { addCustomTimestamp('Scanner', 1, "Scanner towards feet"); });
+btnScannerHead.addEventListener('click', function () { addCustomTimestamp('Scanner', 2, "Scanner towards head"); });
+btnScannerFullscan.addEventListener('click', function () { addCustomTimestamp('Scanner', 3, "Scanner full scan"); });
+btnScannerFreakout.addEventListener('click', function () { addCustomTimestamp('Scanner', 4, "Scanner freakout"); });
+btnTiltStop.addEventListener('click', function () { addCustomTimestamp('Tilt', 0, "Tilt stop"); });
 btnTiltForward.addEventListener('click', function () { addCustomTimestamp('Tilt', 1, "Tilt forward"); });
 btnTiltBackward.addEventListener('click', function () { addCustomTimestamp('Tilt', 2, "Tilt backward"); });
-btnDoorsOpen.addEventListener('click', function () { addCustomTimestamp('Doors', 1, "Doors open"); });
-btnDoorsClose.addEventListener('click', function () { addCustomTimestamp('Doors', 0, "Doors close"); });
+// btnTiltCenter.addEventListener('click', function () { addCustomTimestamp('Tilt', 3, "Tilt center"); });
+btnDoorsStop.addEventListener('click', function () { addCustomTimestamp('Doors', 0, "Doors stop"); });
+btnDoorsClose.addEventListener('click', function () { addCustomTimestamp('Doors', 1, "Doors close"); });
+btnDoorsOpen.addEventListener('click', function () { addCustomTimestamp('Doors', 2, "Doors open"); });
 
 // Initialize the list of timestamps
 updateTimestampsList();

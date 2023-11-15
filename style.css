@@ -119,6 +119,16 @@ button {
     color: #fff;
 }
 
+#btnLEDsCycle {
+    background-color: #a0c;
+    color: #fff;
+}
+
+#btnLEDsWhite {
+    background-color: #fff;
+    color: #000;
+}
+
 .quick_actions .room_lights {
     background-color: #bfb;
 }

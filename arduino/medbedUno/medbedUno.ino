@@ -13,29 +13,36 @@
 #define BAUD_RATE 115200
 
 // SCANNER
-long SCANNER_start_time = 0;
-// duration for speed 80 = 7000
-// duration for speed 150 = 5000
-// duration for speed 200 = 4000
-int SCANNER_scan_duration = 4000;  // one full sweep is really 20 seconds
+unsigned long SCANNER_start_time = 0;
+const int SCANNER_scan_duration = 4000;  // one full sweep is really 20 seconds
 bool SCANNER_move_to_head = false;
 bool SCANNER_move_to_feet = false;
 bool SCANNER_freakout = false;
-long SCANNER_freakout_start_time = 0;
+unsigned long SCANNER_freakout_start_time = 0;
 int SCANNER_freakout_step_duration = 2000;
-int SCANNER_freakout_max_duration = 4000;
+const int SCANNER_freakout_max_duration = 4000;
 int SCANNER_freakout_step = 0;
 int SCANNER_freakout_num_steps = 8;
-int SCANNER_speed = 90;
+const int SCANNER_speed = 90;
 bool SCANNER_override = false;  // when scanner hits a pre-stop, send it back to the middle before doing anything else with it
 int SO_direction = 0;           // scanner override direction (1 to head, 2 to feet)
-long SO_start_time = 0;         // when it started to override
-int SO_duration = 2000;         // override for X seconds
+unsigned long SO_start_time = 0;         // when it started to override
+const int SO_duration = 2000;   // override for X seconds
 
 // LEDs SCANNER
 #include <Adafruit_NeoPixel.h>
 #define NUM_LEDS 120
 Adafruit_NeoPixel pixels(NUM_LEDS, LEDS_PIN, NEO_GRB + NEO_KHZ800);
+bool LED_cycle = false;         // smooth color cycle mode
+unsigned long LED_cycle_start_time = 0;  // ...
+const int LED_cycle_duration = 4000;
+const int LED_num_phases = 4;
+const int LED_phase_duration = LED_cycle_duration / LED_num_phases;
+int LED_current_phase = 0;
+float LED_prevPhaseProgress = 0;
+uint8_t LED_red = 0;
+uint8_t LED_green = 0;
+uint8_t LED_blue = 0;
 
 
 // BED TILT
@@ -75,12 +82,10 @@ void loop() {
   int brakeHead = digitalRead(SCANNER_BRAKE_HEAD);
   if (brakeHead == LOW) {
     Serial.println("scanner hit HEAD pre-stop");
-
   }
   int brakeFeet = digitalRead(SCANNER_BRAKE_FEET);
   if (brakeFeet == LOW) {
     Serial.println("scanner hit FEET pre-stop");
-    
   }
 
   if (Serial.available() > 0) {
@@ -98,23 +103,6 @@ void loop() {
       String command = receivedString.substring(0, commaIndex);
       // extract the integer value after the comma
       int value = receivedString.substring(commaIndex + 1).toInt();
-
-      if (command == "DEBUG") {
-        if (value == 9) {
-
-          analogWrite(SCANNER_PIN_AVI, SCANNER_speed);
-          digitalWrite(SCANNER_PIN_FR, HIGH);
-
-        } else if (value == 11) {
-
-          analogWrite(SCANNER_PIN_AVI, SCANNER_speed);
-          digitalWrite(SCANNER_PIN_FR, LOW);
-
-        } else if (value == 0) {
-
-          stopScan();
-        }
-      }
 
       if (command == "Scanner") {
         handleScanner(value);
@@ -136,6 +124,8 @@ void loop() {
 
   // check on scanner
   scanner();
+
+  LEDs();
 
   delay(2);
 }
@@ -205,11 +195,11 @@ void tiltHome() {
 
 
 void handleLEDs(int value) {
-  // 0 = off
-  // 1 = blue
-  // 2 = red
-  // 3 =
-  // 4 =
+  // 0: off
+  // 1: blue
+  // 2: red
+  // 3: white
+  // 4: cycle
   switch (value) {
     case 0:
       setAllLeds(0, 0, 0, 0);
@@ -223,6 +213,9 @@ void handleLEDs(int value) {
     case 3:
       setAllLeds(255, 255, 255, 255);
       break;
+    case 4:
+      LEDstartCycle();
+      break;
   }
 }
 
@@ -230,6 +223,7 @@ void handleTilt(int value) {
   // 0: stop
   // 1: tilt forward
   // 2: tilt backward
+  // 3: tilt center
   switch (value) {
     case 0:
       analogWrite(TILT_FWD_PIN, 0);
@@ -245,10 +239,18 @@ void handleTilt(int value) {
       analogWrite(TILT_FWD_PIN, 0);
       analogWrite(TILT_REV_PIN, tiltSpeed);
       break;
+    
+    case 3:
+      // tilt back to center...
+      break;
   }
 }
 
 void handleDoors(int value) {
+  // 0: stop
+  // 1: close
+  // 2: open
+
   switch (value) {
     case 0:
       analogWrite(DOORS_FWD_PIN, 0);
@@ -268,6 +270,11 @@ void handleDoors(int value) {
 }
 
 void handleScanner(int value) {
+  // 0: stop
+  // 1: towards feet
+  // 2: towards head
+  // 3: fullscan feet to head
+  // 4: freakout
   if (value == 0) {
     stopScan();
   } else if (value == 1) {
@@ -296,6 +303,61 @@ void setAllLeds(int r, int g, int b, int brightness) {
   }
   pixels.setBrightness(brightness);
   pixels.show();
+}
+
+// smooth color cycle for LEDs
+void LEDstartCycle() {
+  LED_cycle = true;
+  LED_cycle_start_time = millis();
+}
+
+void LEDs() {
+  if (LED_cycle) {
+    unsigned long currentMillis = millis();
+    unsigned long elapsedMillis = currentMillis - LED_cycle_start_time;
+
+    // calculate the progress within the current phase (0 to 1)
+    float phaseProgress = static_cast<float>(elapsedMillis % LED_phase_duration) / LED_phase_duration;
+
+    if(LED_prevPhaseProgress > phaseProgress) {
+      LED_current_phase++;
+      
+      if(LED_current_phase > LED_num_phases) {
+        LED_current_phase = 1;
+      }
+    }
+    
+    LED_prevPhaseProgress = phaseProgress;
+
+    // interpolate between colors based on the current phase
+    LED_green = 0;
+    switch (LED_current_phase) {
+      case 0:
+        LED_red = interpolateColor(0, 128, phaseProgress);
+        LED_blue = interpolateColor(128, 128, phaseProgress);
+        break;
+      case 1:
+        LED_red = interpolateColor(128, 128, phaseProgress);
+        LED_blue = interpolateColor(128, 0, phaseProgress);
+        break;
+      case 2:
+        LED_red = interpolateColor(128, 128, phaseProgress);
+        LED_blue = interpolateColor(0, 128, phaseProgress);
+        break;
+      case 3:
+        LED_red = interpolateColor(128, 0, phaseProgress);
+        LED_blue = interpolateColor(128, 128, phaseProgress);
+        break;
+    }
+  
+    setAllLeds(LED_red, LED_green, LED_blue, 255);  // full brightness
+
+}
+
+// helper for color transitions
+uint8_t interpolateColor(uint8_t start, uint8_t end, float progress) {
+  // interpolate between start and end based on progress
+  return static_cast<uint8_t>(start + (end - start) * progress);
 }
 
 // start going from feet to head and back
@@ -351,7 +413,7 @@ void scanner() {
     Serial.println("scanner hit head, moving towards feet slightly");
   }
 
-  long currentTime = millis();
+  unsigned long currentTime = millis();
 
   if (SCANNER_freakout) {
     if (currentTime > SCANNER_freakout_start_time + SCANNER_freakout_step_duration) {
@@ -365,7 +427,7 @@ void scanner() {
         SCANNER_freakout_step_duration = SCANNER_freakout_max_duration;
       }
 
-      if(SCANNER_freakout_step >= SCANNER_freakout_num_steps) {
+      if (SCANNER_freakout_step >= SCANNER_freakout_num_steps) {
         SCANNER_freakout = false;
       }
     }
