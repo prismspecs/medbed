@@ -1,18 +1,25 @@
 #define SCANNER_PIN_FR 2
 #define SCANNER_PIN_AVI 3
 #define SCANNER_BRAKE_HEAD 4
-#define TILT_FWD_PIN 5
-#define TILT_REV_PIN 6
+#define TILT_REV_PIN 5
+#define TILT_FWD_PIN 6
 #define ROOMLIGHT_1_PIN 7
 #define ROOMLIGHT_2_PIN 8
-#define DOORS_FWD_PIN 9
-#define DOORS_REV_PIN 10
+#define DOORS_REV_PIN 9
+#define DOORS_FWD_PIN 10
 #define LEDS_PIN 11
 #define SCANNER_BRAKE_FEET 12
 
 #define BAUD_RATE 115200
+// scanner takes 11.5 seconds feet to head
+// doors take 62 seconds open to close
+// doors take 45 seconds close to open
+// tilt takes 53 seconds from all the way forward to all the way back
+// tilt takes 58 seconds from all the way back to all the way forward
 
-// SCANNER
+// SCANNER takes 11.5 seconds
+const int SCANNER_speed = 90;  // 90 is good
+const int SCANNER_bounceback_duration = 300;
 unsigned long SCANNER_start_time = 0;
 const int SCANNER_scan_duration = 4000;  // one full sweep is really 20 seconds
 bool SCANNER_move_to_head = false;
@@ -20,10 +27,11 @@ bool SCANNER_move_to_feet = false;
 bool SCANNER_freakout = false;
 unsigned long SCANNER_freakout_start_time = 0;
 int SCANNER_freakout_step_duration = 2000;
-const int SCANNER_freakout_max_duration = 4000;
+const int SCANNER_freakout_led_max_duration = 4000;
 int SCANNER_freakout_step = 0;
 int SCANNER_freakout_num_steps = 8;
-const int SCANNER_speed = 90;
+int SCANNER_freakout_brightness = 255;
+int SCANNER_freakout_brightness_direction = 1;
 bool SCANNER_override = false;    // when scanner hits a pre-stop, send it back to the middle before doing anything else with it
 int SO_direction = 0;             // scanner override direction (1 to head, 2 to feet)
 unsigned long SO_start_time = 0;  // when it started to override
@@ -36,10 +44,10 @@ Adafruit_NeoPixel pixels(NUM_LEDS, LEDS_PIN, NEO_GRB + NEO_KHZ800);
 bool LED_cycle = false;                  // smooth color cycle mode
 unsigned long LED_cycle_start_time = 0;  // ...
 const int LED_cycle_duration = 4000;
-const int LED_num_phases = 4;
-const int LED_phase_duration = LED_cycle_duration / LED_num_phases;
-int LED_current_phase = 0;
-float LED_prevPhaseProgress = 0;
+const int LED_num_color_phases = 4;
+const int LED_phase_duration = LED_cycle_duration / LED_num_color_phases;
+int LED_current_color_phase = 0;
+float LED_prevColorPhaseProgress = 0;
 uint8_t LED_red = 0;
 uint8_t LED_green = 0;
 uint8_t LED_blue = 0;
@@ -47,11 +55,12 @@ uint8_t LED_blue = 0;
 
 // BED TILT
 int tiltSpeed = 255;
-#define TILT_DURATION 10000  // how long it takes to go all the way
+#define TILT_BACK_DURATION 53000  // how long it takes to go all the way back from all the way forward
 
 // DOORS
 int doorSpeed = 255;
-#define DOORS_DURATION 10000  // how long it takes to go from all the way open to all the way closed
+#define DOORS_OPEN_DURATION 45000   // how long it takes closed to open
+#define DOORS_CLOSE_DURATION 62000  // how long it takes closed to open
 
 // ROOM LIGHTS
 
@@ -65,6 +74,7 @@ void setup() {
   // set up pins
   pinMode(SCANNER_PIN_FR, OUTPUT);
   pinMode(SCANNER_BRAKE_HEAD, INPUT_PULLUP);
+  pinMode(SCANNER_BRAKE_FEET, INPUT_PULLUP);
   pinMode(ROOMLIGHT_1_PIN, OUTPUT);
   pinMode(ROOMLIGHT_2_PIN, OUTPUT);
   pinMode(TILT_FWD_PIN, OUTPUT);
@@ -74,18 +84,20 @@ void setup() {
   pixels.begin();  // INITIALIZE NeoPixel strip object (REQUIRED)
 
   // set home positions
-  homeSequence();
+  //homeSequence();
 }
 
 void loop() {
-  // brake test
-  int brakeHead = digitalRead(SCANNER_BRAKE_HEAD);
-  if (brakeHead == LOW) {
-    Serial.println("scanner hit HEAD pre-stop");
+  // scanner brakes -- should avoid this by tuning the editing sequence... this is mostly a fallback
+  if (scannerHitFeet()) {
+    stopScan();
+    scannerTowardsHead();
+    delay(SCANNER_bounceback_duration);
   }
-  int brakeFeet = digitalRead(SCANNER_BRAKE_FEET);
-  if (brakeFeet == LOW) {
-    Serial.println("scanner hit FEET pre-stop");
+  if (scannerHitHead()) {
+    stopScan();
+    scannerTowardsFeet();
+    delay(SCANNER_bounceback_duration);
   }
 
   if (Serial.available() > 0) {
@@ -103,6 +115,23 @@ void loop() {
       String command = receivedString.substring(0, commaIndex);
       // extract the integer value after the comma
       int value = receivedString.substring(commaIndex + 1).toInt();
+
+      if (command == "DEBUG") {
+        if (value == 9) {
+
+          analogWrite(SCANNER_PIN_AVI, SCANNER_speed);
+          digitalWrite(SCANNER_PIN_FR, HIGH);
+
+        } else if (value == 11) {
+
+          analogWrite(SCANNER_PIN_AVI, SCANNER_speed);
+          digitalWrite(SCANNER_PIN_FR, LOW);
+
+        } else if (value == 0) {
+
+          stopScan();
+        }
+      }
 
       if (command == "Scanner") {
         handleScanner(value);
@@ -151,6 +180,7 @@ void scannerToFeetStart() {
     if (scannerHitFeet()) {
       stopScan();
       home = true;
+      SCANNER_move_to_feet = false;
     }
     delay(2);
   }
@@ -158,8 +188,9 @@ void scannerToFeetStart() {
   // now move slightly towards head
   Serial.println("scanner hit feet, moving slightly towards head");
   scannerTowardsHead();
-  delay(2000);
-
+  delay(SCANNER_bounceback_duration);
+  stopScan();
+  SCANNER_move_to_head = false;
   Serial.println("scanner homing sequence complete");
 }
 
@@ -168,7 +199,7 @@ void scannerTowardsFeet() {
   SCANNER_move_to_head = false;
   SCANNER_move_to_feet = true;
   analogWrite(SCANNER_PIN_AVI, SCANNER_speed);
-  digitalWrite(SCANNER_PIN_FR, HIGH);
+  digitalWrite(SCANNER_PIN_FR, LOW);
 }
 
 void scannerTowardsHead() {
@@ -192,14 +223,11 @@ void tiltHome() {
 
   Serial.println("moving tilt to home position");
 
-  // tilt forward (towards feet)
-  handleTilt(1);
-
-  delay(TILT_DURATION);
-
-  // tild backward
   handleTilt(2);
-  delay(TILT_DURATION / 2);
+  delay(TILT_BACK_DURATION);
+  handleTilt(1);
+  delay(1000);
+  handleTilt(0);
 
   Serial.println("tilt motor got to home");
 }
@@ -209,16 +237,16 @@ void doorsHome() {
 
   handleDoors(1);  // close
 
-  delay(DOORS_DURATION);
+  delay(DOORS_CLOSE_DURATION);
 
-  Serial.println("doors motor got to homee");
+  Serial.println("doors motor got to home");
 }
 
 
 void handleLEDs(int value) {
   // 0: off
   // 1: blue
-  // 2: red
+  // 2: purple
   // 3: white
   // 4: cycle
   switch (value) {
@@ -229,7 +257,7 @@ void handleLEDs(int value) {
       setAllLeds(0, 0, 255, 255);
       break;
     case 2:
-      setAllLeds(255, 0, 0, 255);
+      setAllLeds(128, 0, 128, 255);
       break;
     case 3:
       setAllLeds(255, 255, 255, 255);
@@ -334,44 +362,60 @@ void LEDstartCycle() {
 
 void LEDs() {
   if (LED_cycle) {
+
+    // COLOR PHASING
     unsigned long currentMillis = millis();
     unsigned long elapsedMillis = currentMillis - LED_cycle_start_time;
 
     // calculate the progress within the current phase (0 to 1)
-    float phaseProgress = static_cast<float>(elapsedMillis % LED_phase_duration) / LED_phase_duration;
+    float colorPhaseProgress = static_cast<float>(elapsedMillis % LED_phase_duration) / LED_phase_duration;
 
-    if (LED_prevPhaseProgress > phaseProgress) {
-      LED_current_phase++;
+    if (LED_prevColorPhaseProgress > colorPhaseProgress) {
+      LED_current_color_phase++;
 
-      if (LED_current_phase > LED_num_phases) {
-        LED_current_phase = 1;
+      if (LED_current_color_phase > LED_num_color_phases) {
+        LED_current_color_phase = 0;
       }
     }
 
-    LED_prevPhaseProgress = phaseProgress;
+    LED_prevColorPhaseProgress = colorPhaseProgress;
 
     // interpolate between colors based on the current phase
     LED_green = 0;
-    switch (LED_current_phase) {
+    switch (LED_current_color_phase) {
       case 0:
-        LED_red = interpolateColor(0, 128, phaseProgress);
-        LED_blue = interpolateColor(128, 128, phaseProgress);
+        LED_red = interpolateColor(50, 128, colorPhaseProgress);
+        LED_blue = interpolateColor(128, 128, colorPhaseProgress);
         break;
       case 1:
-        LED_red = interpolateColor(128, 128, phaseProgress);
-        LED_blue = interpolateColor(128, 0, phaseProgress);
+        LED_red = interpolateColor(128, 128, colorPhaseProgress);
+        LED_blue = interpolateColor(128, 50, colorPhaseProgress);
         break;
       case 2:
-        LED_red = interpolateColor(128, 128, phaseProgress);
-        LED_blue = interpolateColor(0, 128, phaseProgress);
+        LED_red = interpolateColor(128, 128, colorPhaseProgress);
+        LED_blue = interpolateColor(50, 128, colorPhaseProgress);
         break;
       case 3:
-        LED_red = interpolateColor(128, 0, phaseProgress);
-        LED_blue = interpolateColor(128, 128, phaseProgress);
+        LED_red = interpolateColor(128, 50, colorPhaseProgress);
+        LED_blue = interpolateColor(128, 128, colorPhaseProgress);
         break;
     }
 
-    setAllLeds(LED_red, LED_green, LED_blue, 255);  // full brightness
+    if (SCANNER_freakout_brightness_direction == 1) {
+      SCANNER_freakout_brightness -= 1;
+      if (SCANNER_freakout_brightness <= 50) {
+        SCANNER_freakout_brightness = 50;
+        SCANNER_freakout_brightness_direction = -1;
+      }
+    } else {
+      SCANNER_freakout_brightness += 1;
+      if (SCANNER_freakout_brightness >= 255) {
+        SCANNER_freakout_brightness = 255;
+        SCANNER_freakout_brightness_direction = 1;
+      }
+    }
+
+    setAllLeds(LED_red, LED_green, LED_blue, SCANNER_freakout_brightness);  // full brightness
   }
 }
 
@@ -404,6 +448,7 @@ void stopScan() {
 bool scannerHitHead() {
   // check on scanner hitting the ends
   if (digitalRead(SCANNER_BRAKE_HEAD) == LOW) {
+    Serial.println("scannerHitHead returned true");
     return true;
   } else {
     return false;
@@ -414,6 +459,7 @@ bool scannerHitHead() {
 bool scannerHitFeet() {
   // check on scanner hitting the ends
   if (digitalRead(SCANNER_BRAKE_FEET) == LOW) {
+    Serial.println("scannerHitFeet returned true");
     return true;
   } else {
     return false;
@@ -443,9 +489,9 @@ void scanner() {
 
       // even steps have half duration
       if (SCANNER_freakout_step % 2 == 0) {
-        SCANNER_freakout_step_duration = SCANNER_freakout_max_duration / 2;
+        SCANNER_freakout_step_duration = SCANNER_freakout_led_max_duration / 2;
       } else {
-        SCANNER_freakout_step_duration = SCANNER_freakout_max_duration;
+        SCANNER_freakout_step_duration = SCANNER_freakout_led_max_duration;
       }
 
       if (SCANNER_freakout_step >= SCANNER_freakout_num_steps) {
