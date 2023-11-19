@@ -24,16 +24,16 @@ const int SCANNER_freakout_max_duration = 4000;
 int SCANNER_freakout_step = 0;
 int SCANNER_freakout_num_steps = 8;
 const int SCANNER_speed = 90;
-bool SCANNER_override = false;  // when scanner hits a pre-stop, send it back to the middle before doing anything else with it
-int SO_direction = 0;           // scanner override direction (1 to head, 2 to feet)
-unsigned long SO_start_time = 0;         // when it started to override
-const int SO_duration = 2000;   // override for X seconds
+bool SCANNER_override = false;    // when scanner hits a pre-stop, send it back to the middle before doing anything else with it
+int SO_direction = 0;             // scanner override direction (1 to head, 2 to feet)
+unsigned long SO_start_time = 0;  // when it started to override
+const int SO_duration = 2000;     // override for X seconds
 
 // LEDs SCANNER
 #include <Adafruit_NeoPixel.h>
 #define NUM_LEDS 120
 Adafruit_NeoPixel pixels(NUM_LEDS, LEDS_PIN, NEO_GRB + NEO_KHZ800);
-bool LED_cycle = false;         // smooth color cycle mode
+bool LED_cycle = false;                  // smooth color cycle mode
 unsigned long LED_cycle_start_time = 0;  // ...
 const int LED_cycle_duration = 4000;
 const int LED_num_phases = 4;
@@ -51,6 +51,7 @@ int tiltSpeed = 255;
 
 // DOORS
 int doorSpeed = 255;
+#define DOORS_DURATION 10000  // how long it takes to go from all the way open to all the way closed
 
 // ROOM LIGHTS
 
@@ -73,8 +74,7 @@ void setup() {
   pixels.begin();  // INITIALIZE NeoPixel strip object (REQUIRED)
 
   // set home positions
-  // scannerToFeetStart();
-  // tiltHome();
+  homeSequence();
 }
 
 void loop() {
@@ -116,6 +116,8 @@ void loop() {
         handleTilt(value);
       } else if (command == "Doors") {
         handleDoors(value);
+      } else if (command == "Home") {
+        homeSequence();
       }
 
       // implement other actions for different commands here
@@ -128,6 +130,15 @@ void loop() {
   LEDs();
 
   delay(2);
+}
+
+void homeSequence() {
+  scannerToFeetStart();
+  tiltHome();
+  doorsHome();
+  Serial.println("turning LEDs off during home sequence");
+  setAllLeds(0, 0, 0, 0);
+  Serial.println("home sequence complete");
 }
 
 void scannerToFeetStart() {
@@ -190,7 +201,17 @@ void tiltHome() {
   handleTilt(2);
   delay(TILT_DURATION / 2);
 
-  Serial.println("tilt motor got to home, stopping home sequence");
+  Serial.println("tilt motor got to home");
+}
+
+void doorsHome() {
+  Serial.println("moving doors to home position (closed)");
+
+  handleDoors(1);  // close
+
+  delay(DOORS_DURATION);
+
+  Serial.println("doors motor got to homee");
 }
 
 
@@ -239,7 +260,7 @@ void handleTilt(int value) {
       analogWrite(TILT_FWD_PIN, 0);
       analogWrite(TILT_REV_PIN, tiltSpeed);
       break;
-    
+
     case 3:
       // tilt back to center...
       break;
@@ -319,14 +340,14 @@ void LEDs() {
     // calculate the progress within the current phase (0 to 1)
     float phaseProgress = static_cast<float>(elapsedMillis % LED_phase_duration) / LED_phase_duration;
 
-    if(LED_prevPhaseProgress > phaseProgress) {
+    if (LED_prevPhaseProgress > phaseProgress) {
       LED_current_phase++;
-      
-      if(LED_current_phase > LED_num_phases) {
+
+      if (LED_current_phase > LED_num_phases) {
         LED_current_phase = 1;
       }
     }
-    
+
     LED_prevPhaseProgress = phaseProgress;
 
     // interpolate between colors based on the current phase
@@ -349,9 +370,9 @@ void LEDs() {
         LED_blue = interpolateColor(128, 128, phaseProgress);
         break;
     }
-  
-    setAllLeds(LED_red, LED_green, LED_blue, 255);  // full brightness
 
+    setAllLeds(LED_red, LED_green, LED_blue, 255);  // full brightness
+  }
 }
 
 // helper for color transitions
