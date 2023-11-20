@@ -135,7 +135,7 @@ void loop() {
 
   if (Serial.available() > 0) {
     // read the incoming serial data until a newline character
-
+    
     String receivedString = Serial.readStringUntil('\n');
     Serial.print("received: ");
     Serial.println(receivedString);
@@ -195,8 +195,6 @@ void handleLEDs(int value) {
   // 0 = off
   // 1 = blue
   // 2 = red
-  // 3 = white
-  // 4 = purple
   switch (value) {
     case 0:
       setAllLeds(0, 0, 0, 0);
@@ -209,9 +207,6 @@ void handleLEDs(int value) {
       break;
     case 3:
       setAllLeds(255, 255, 255, 255);
-      break;
-    case 4:
-      setAllLeds(255, 0, 255, 255);
       break;
   }
 }
