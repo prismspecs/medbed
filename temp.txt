@@ -1,0 +1,602 @@
+[
+  {
+    "time": 6,
+    "selectedOption": "Scanner",
+    "integerValue": 4,
+    "comment": "Scanner freakout"
+  },
+  {
+    "time": 0,
+    "selectedOption": "Tilt",
+    "integerValue": 1,
+    "comment": "Tilt forward"
+  },
+  {
+    "time": 10,
+    "selectedOption": "Tilt",
+    "integerValue": 0,
+    "comment": "Tilt stop"
+  },
+  {
+    "time": 94,
+    "selectedOption": "Tilt",
+    "integerValue": 1,
+    "comment": "Tilt forward"
+  },
+  {
+    "time": 114,
+    "selectedOption": "Tilt",
+    "integerValue": 2,
+    "comment": "Tilt backward"
+  },
+  {
+    "time": 124,
+    "selectedOption": "Tilt",
+    "integerValue": 0,
+    "comment": "Tilt stop"
+  },
+  {
+    "time": 126,
+    "selectedOption": "Doors",
+    "integerValue": 2,
+    "comment": "Doors open"
+  },
+  {
+    "time": 154,
+    "selectedOption": "Doors",
+    "integerValue": 1,
+    "comment": "Doors close"
+  },
+  {
+    "time": 219,
+    "selectedOption": "Tilt",
+    "integerValue": 0,
+    "comment": "Tilt stop"
+  },
+  {
+    "time": 209,
+    "selectedOption": "Tilt",
+    "integerValue": 2,
+    "comment": "Tilt backward"
+  },
+  {
+    "time": 281,
+    "selectedOption": "Tilt",
+    "integerValue": 1,
+    "comment": "Tilt forward"
+  },
+  {
+    "time": 286,
+    "selectedOption": "Tilt",
+    "integerValue": 0,
+    "comment": "Tilt stop"
+  },
+  {
+    "time": 369,
+    "selectedOption": "Tilt",
+    "integerValue": 1,
+    "comment": "Tilt forward"
+  },
+  {
+    "time": 385,
+    "selectedOption": "Tilt",
+    "integerValue": 2,
+    "comment": "Tilt backward"
+  },
+  {
+    "time": 395,
+    "selectedOption": "Tilt",
+    "integerValue": 1,
+    "comment": "Tilt forward"
+  },
+  {
+    "time": 415,
+    "selectedOption": "Tilt",
+    "integerValue": 0,
+    "comment": "Tilt stop"
+  },
+  {
+    "time": 559,
+    "selectedOption": "Tilt",
+    "integerValue": 2,
+    "comment": "Tilt backward"
+  },
+  {
+    "time": 580,
+    "selectedOption": "Tilt",
+    "integerValue": 1,
+    "comment": "Tilt forward"
+  },
+  {
+    "time": 579,
+    "selectedOption": "Doors",
+    "integerValue": 2,
+    "comment": "Doors open"
+  },
+  {
+    "time": 590,
+    "selectedOption": "Scanner",
+    "integerValue": 2,
+    "comment": "Scanner towards head"
+  },
+  {
+    "time": 594,
+    "selectedOption": "Scanner",
+    "integerValue": 1,
+    "comment": "Scanner towards feet"
+  },
+  {
+    "time": 599,
+    "selectedOption": "Scanner",
+    "integerValue": 2,
+    "comment": "Scanner towards head"
+  },
+  {
+    "time": 605,
+    "selectedOption": "Scanner",
+    "integerValue": 1,
+    "comment": "Scanner towards feet"
+  },
+  {
+    "time": 608,
+    "selectedOption": "Scanner",
+    "integerValue": 2,
+    "comment": "Scanner towards head"
+  },
+  {
+    "time": 609,
+    "selectedOption": "Scanner",
+    "integerValue": 1,
+    "comment": "Scanner towards feet"
+  },
+  {
+    "time": 611,
+    "selectedOption": "Scanner",
+    "integerValue": 2,
+    "comment": "Scanner towards head"
+  },
+  {
+    "time": 614,
+    "selectedOption": "Scanner",
+    "integerValue": 1,
+    "comment": "Scanner towards feet"
+  },
+  {
+    "time": 615,
+    "selectedOption": "Scanner",
+    "integerValue": 2,
+    "comment": "Scanner towards head"
+  },
+  {
+    "time": 620,
+    "selectedOption": "Scanner",
+    "integerValue": 1,
+    "comment": "Scanner towards feet"
+  },
+  {
+    "time": 626,
+    "selectedOption": "Scanner",
+    "integerValue": 2,
+    "comment": "Scanner towards head"
+  },
+  {
+    "time": 633,
+    "selectedOption": "Scanner",
+    "integerValue": 1,
+    "comment": "Scanner towards feet"
+  },
+  {
+    "time": 615,
+    "selectedOption": "Doors",
+    "integerValue": 0,
+    "comment": "Doors stop"
+  },
+  {
+    "time": 635,
+    "selectedOption": "Scanner",
+    "integerValue": 2,
+    "comment": "Scanner towards head"
+  },
+  {
+    "time": 638,
+    "selectedOption": "Scanner",
+    "integerValue": 1,
+    "comment": "Scanner towards feet"
+  },
+  {
+    "time": 640,
+    "selectedOption": "Scanner",
+    "integerValue": 2,
+    "comment": "Scanner towards head"
+  },
+  {
+    "time": 644,
+    "selectedOption": "Scanner",
+    "integerValue": 1,
+    "comment": "Scanner towards feet"
+  },
+  {
+    "time": 652,
+    "selectedOption": "Scanner",
+    "integerValue": 2,
+    "comment": "Scanner towards head"
+  },
+  {
+    "time": 664,
+    "selectedOption": "Scanner",
+    "integerValue": 1,
+    "comment": "Scanner towards feet"
+  },
+  {
+    "time": 667,
+    "selectedOption": "Scanner",
+    "integerValue": 4,
+    "comment": "Scanner freakout"
+  },
+  {
+    "time": 645,
+    "selectedOption": "Doors",
+    "integerValue": 1,
+    "comment": "Doors close"
+  },
+  {
+    "time": 667,
+    "selectedOption": "Tilt",
+    "integerValue": 2,
+    "comment": "Tilt backward"
+  },
+  {
+    "time": 769,
+    "selectedOption": "Tilt",
+    "integerValue": 1,
+    "comment": "Tilt forward"
+  },
+  {
+    "time": 772,
+    "selectedOption": "Doors",
+    "integerValue": 2,
+    "comment": "Doors open"
+  },
+  {
+    "time": 780,
+    "selectedOption": "Tilt",
+    "integerValue": 0,
+    "comment": "Tilt stop"
+  },
+  {
+    "time": 798,
+    "selectedOption": "Doors",
+    "integerValue": 1,
+    "comment": "Doors close"
+  },
+  {
+    "time": 1001,
+    "selectedOption": "Tilt",
+    "integerValue": 1,
+    "comment": "Tilt forward"
+  },
+  {
+    "time": 1196,
+    "selectedOption": "Tilt",
+    "integerValue": 2,
+    "comment": "Tilt backward"
+  },
+  {
+    "time": 1201,
+    "selectedOption": "Tilt",
+    "integerValue": 0,
+    "comment": "Tilt stop"
+  },
+  {
+    "time": 1200,
+    "selectedOption": "Doors",
+    "integerValue": 2,
+    "comment": "Doors open"
+  },
+  {
+    "time": 1212,
+    "selectedOption": "Scanner",
+    "integerValue": 2,
+    "comment": "Scanner towards head"
+  },
+  {
+    "time": 1219,
+    "selectedOption": "Scanner",
+    "integerValue": 1,
+    "comment": "Scanner towards feet"
+  },
+  {
+    "time": 1223,
+    "selectedOption": "Scanner",
+    "integerValue": 2,
+    "comment": "Scanner towards head"
+  },
+  {
+    "time": 1230,
+    "selectedOption": "Scanner",
+    "integerValue": 1,
+    "comment": "Scanner towards feet"
+  },
+  {
+    "time": 1236,
+    "selectedOption": "Scanner",
+    "integerValue": 2,
+    "comment": "Scanner towards head"
+  },
+  {
+    "time": 1241,
+    "selectedOption": "Scanner",
+    "integerValue": 1,
+    "comment": "Scanner towards feet"
+  },
+  {
+    "time": 1245,
+    "selectedOption": "Scanner",
+    "integerValue": 2,
+    "comment": "Scanner towards head"
+  },
+  {
+    "time": 1249,
+    "selectedOption": "Scanner",
+    "integerValue": 1,
+    "comment": "Scanner towards feet"
+  },
+  {
+    "time": 1257,
+    "selectedOption": "Scanner",
+    "integerValue": 2,
+    "comment": "Scanner towards head"
+  },
+  {
+    "time": 1261,
+    "selectedOption": "Scanner",
+    "integerValue": 1,
+    "comment": "Scanner towards feet"
+  },
+  {
+    "time": 1267,
+    "selectedOption": "Scanner",
+    "integerValue": 2,
+    "comment": "Scanner towards head"
+  },
+  {
+    "time": 1281,
+    "selectedOption": "Scanner",
+    "integerValue": 1,
+    "comment": "Scanner towards feet"
+  },
+  {
+    "time": 1294,
+    "selectedOption": "Scanner",
+    "integerValue": 2,
+    "comment": "Scanner towards head"
+  },
+  {
+    "time": 1301,
+    "selectedOption": "Scanner",
+    "integerValue": 4,
+    "comment": "Scanner freakout"
+  },
+  {
+    "time": 1290,
+    "selectedOption": "Doors",
+    "integerValue": 1,
+    "comment": "Doors close"
+  },
+  {
+    "time": 1540,
+    "selectedOption": "Tilt",
+    "integerValue": 2,
+    "comment": "Tilt backward"
+  },
+  {
+    "time": 1550,
+    "selectedOption": "Tilt",
+    "integerValue": 1,
+    "comment": "Tilt forward"
+  },
+  {
+    "time": 1556,
+    "selectedOption": "Tilt",
+    "integerValue": 2,
+    "comment": "Tilt backward"
+  },
+  {
+    "time": 1560,
+    "selectedOption": "Tilt",
+    "integerValue": 1,
+    "comment": "Tilt forward"
+  },
+  {
+    "time": 1564,
+    "selectedOption": "Tilt",
+    "integerValue": 0,
+    "comment": "Tilt stop"
+  },
+  {
+    "time": 1752,
+    "selectedOption": "Doors",
+    "integerValue": 1,
+    "comment": "Doors close"
+  },
+  {
+    "time": 1539,
+    "selectedOption": "Doors",
+    "integerValue": 2,
+    "comment": "Doors open"
+  },
+  {
+    "time": 1556,
+    "selectedOption": "Doors",
+    "integerValue": 0,
+    "comment": "Doors stop"
+  },
+  {
+    "time": 1760,
+    "selectedOption": "Tilt",
+    "integerValue": 2,
+    "comment": "Tilt backward"
+  },
+  {
+    "time": 1766,
+    "selectedOption": "Tilt",
+    "integerValue": 1,
+    "comment": "Tilt forward"
+  },
+  {
+    "time": 1769,
+    "selectedOption": "Tilt",
+    "integerValue": 2,
+    "comment": "Tilt backward"
+  },
+  {
+    "time": 1774,
+    "selectedOption": "Tilt",
+    "integerValue": 0,
+    "comment": "Tilt stop"
+  },
+  {
+    "time": 2297,
+    "selectedOption": "Doors",
+    "integerValue": 2,
+    "comment": "Doors open"
+  },
+  {
+    "time": 2309,
+    "selectedOption": "Tilt",
+    "integerValue": 1,
+    "comment": "Tilt forward"
+  },
+  {
+    "time": 2320,
+    "selectedOption": "Doors",
+    "integerValue": 0,
+    "comment": "Doors stop"
+  },
+  {
+    "time": 2319,
+    "selectedOption": "Scanner",
+    "integerValue": 1,
+    "comment": "Scanner towards feet"
+  },
+  {
+    "time": 2324,
+    "selectedOption": "Scanner",
+    "integerValue": 2,
+    "comment": "Scanner towards head"
+  },
+  {
+    "time": 2332,
+    "selectedOption": "Scanner",
+    "integerValue": 1,
+    "comment": "Scanner towards feet"
+  },
+  {
+    "time": 2337,
+    "selectedOption": "Scanner",
+    "integerValue": 2,
+    "comment": "Scanner towards head"
+  },
+  {
+    "time": 2343,
+    "selectedOption": "Scanner",
+    "integerValue": 1,
+    "comment": "Scanner towards feet"
+  },
+  {
+    "time": 2347,
+    "selectedOption": "Scanner",
+    "integerValue": 2,
+    "comment": "Scanner towards head"
+  },
+  {
+    "time": 2356,
+    "selectedOption": "Scanner",
+    "integerValue": 1,
+    "comment": "Scanner towards feet"
+  },
+  {
+    "time": 2366,
+    "selectedOption": "Scanner",
+    "integerValue": 2,
+    "comment": "Scanner towards head"
+  },
+  {
+    "time": 2373,
+    "selectedOption": "Scanner",
+    "integerValue": 1,
+    "comment": "Scanner towards feet"
+  },
+  {
+    "time": 2379,
+    "selectedOption": "Scanner",
+    "integerValue": 2,
+    "comment": "Scanner towards head"
+  },
+  {
+    "time": 2385,
+    "selectedOption": "Scanner",
+    "integerValue": 4,
+    "comment": "Scanner freakout"
+  },
+  {
+    "time": 2390,
+    "selectedOption": "Scanner",
+    "integerValue": 1,
+    "comment": "Scanner towards feet"
+  },
+  {
+    "time": 2403,
+    "selectedOption": "Scanner",
+    "integerValue": 2,
+    "comment": "Scanner towards head"
+  },
+  {
+    "time": 2409,
+    "selectedOption": "Scanner",
+    "integerValue": 4,
+    "comment": "Scanner freakout"
+  },
+  {
+    "time": 2403,
+    "selectedOption": "Doors",
+    "integerValue": 1,
+    "comment": "Doors close"
+  },
+  {
+    "time": 2556,
+    "selectedOption": "Tilt",
+    "integerValue": 2,
+    "comment": "Tilt backward"
+  },
+  {
+    "time": 2573,
+    "selectedOption": "Tilt",
+    "integerValue": 1,
+    "comment": "Tilt forward"
+  },
+  {
+    "time": 2577,
+    "selectedOption": "Tilt",
+    "integerValue": 2,
+    "comment": "Tilt backward"
+  },
+  {
+    "time": 2610,
+    "selectedOption": "Tilt",
+    "integerValue": 1,
+    "comment": "Tilt forward"
+  },
+  {
+    "time": 2612,
+    "selectedOption": "Tilt",
+    "integerValue": 0,
+    "comment": "Tilt stop"
+  },
+  {
+    "time": 2859,
+    "selectedOption": "Tilt",
+    "integerValue": 1,
+    "comment": "Tilt forward"
+  }
+]
