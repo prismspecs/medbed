@@ -1,0 +1,2086 @@
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  2054 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  2059 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  2066 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  2069 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  2072 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  2075 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  2078 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  2081 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  2124 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  2128 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  2134 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  2139 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  2167 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  2195 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  2198 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  2201 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  2204 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  2207 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  2215 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  2221 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  2228 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  2406 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  2423 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  2426 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  2433 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  2634 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3001 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3006 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3009 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3013 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3016 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3021 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3024 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3028 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3031 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3034 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3038 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3051 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3054 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3058 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3061 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3064 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3067 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3070 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3077 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3179 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3187 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3191 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3202 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3219 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3223 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3233 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3238 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3243 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3246 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3249 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3252 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3262 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3265 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3272 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3275 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3278 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3281 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3284 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3287 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3290 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3293 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3296 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3299 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3302 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3305 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3308 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3312 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3315 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3319 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3332 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3337 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3340 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3344 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3352 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3355 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3359 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3362 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3365 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3369 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3378 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3381 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3384 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3387 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3390 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3393 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3396 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3399 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3402 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3405 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3408 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3411 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3414 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3417 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3420 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3423 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3426 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3429 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3432 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3435 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3438 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3441 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3444 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3447 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3450 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3453 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3459 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3463 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3466 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3469 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3472 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3475 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3478 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3481 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3485 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3488 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3491 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3494 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3497 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3500 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3503 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3506 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3509 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3512 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3515 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3518 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3521 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3524 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3527 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3531 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3534 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3537 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3540 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3543 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3546 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3549 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3552 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3556 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3559 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3562 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3565 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3568 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3571 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3574 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3577 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3580 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3583 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3586 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3589 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3592 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3595 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3598 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3601 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3604 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3607 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3610 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3615 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3618 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3621 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3624 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3627 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3630 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3633 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3636 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3639 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3643 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3646 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3649 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3652 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3655 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3658 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3661 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3664 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3667 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3670 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3673 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3676 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3679 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3682 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3685 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3688 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3691 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3694 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3697 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3700 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3704 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3707 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3716 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3721 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3724 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3727 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3730 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3733 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3736 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3739 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3745 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3748 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3751 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3754 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3757 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3760 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3763 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3766 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3769 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3772 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3775 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3778 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3781 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3784 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3787 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3790 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3793 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3796 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3799 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3802 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3805 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3808 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3811 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3814 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3817 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3820 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3823 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3826 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3830 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3833 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3836 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3839 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3842 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3845 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3848 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3851 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3854 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3857 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3860 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3863 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3866 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3869 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3872 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3875 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3878 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3881 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3884 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3887 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3890 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3893 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3896 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3899 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3902 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3905 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3908 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3911 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3914 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3917 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3920 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3924 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3927 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3930 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3933 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3936 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3939 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3943 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3946 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3949 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3952 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3955 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3958 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3961 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3964 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3967 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3970 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3973 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3976 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3979 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3982 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3985 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  3988 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4004 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4010 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4014 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4017 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4020 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4023 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4026 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4029 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4032 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4035 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4038 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4041 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4056 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4065 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4068 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4071 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4074 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4077 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4080 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4085 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4088 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4091 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4094 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4097 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4100 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4103 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4106 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4109 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4112 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4115 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4118 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4121 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4124 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4127 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4130 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4133 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4137 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4140 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4143 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4146 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4149 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4152 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4155 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4158 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4161 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4164 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4167 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4170 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4173 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: The DISPLAY environment variable is missing
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 13:  4176 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2018 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2072 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2080 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2186 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2189 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2221 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2224 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2257 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2084 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2089 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2201 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2206 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2218 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2221 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2228 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2261 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2296 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2323 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2326 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2358 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2361 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2367 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2381 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2386 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2389 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2393 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2396 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2399 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2402 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2405 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2408 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2411 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2414 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2417 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2420 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2423 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2426 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2431 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2434 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2437 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2440 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2443 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2446 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2449 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2452 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2455 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2458 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2461 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2464 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2467 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2470 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2473 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2476 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2479 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2482 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2485 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2488 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2491 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2494 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2497 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2502 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2507 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2510 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2514 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2517 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2520 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2523 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2528 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2532 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2538 Aborted                 (core dumped) ./ofMedbed
+Authorization required, but no authorization protocol specified
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2584 Aborted                 (core dumped) ./ofMedbed
+[ error ] ofAppGLFWWindow: 65544: X11: Failed to open display :0
+[ error ] ofAppGLFWWindow: couldn't init GLFW
+ofMedbed: ./src/posix_thread.c:64: _glfwPlatformGetTls: Assertion `tls->posix.allocated == GLFW_TRUE' failed.
+ofMedbed: ./src/window.c:488: glfwSetWindowShouldClose: Assertion `window != NULL' failed.
+/home/johannes/medbed/monitor_ofMedbed.sh: line 15:  2707 Aborted                 ./ofMedbed

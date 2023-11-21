@@ -5,8 +5,8 @@
 #define TILT_FWD_PIN 6
 #define ROOMLIGHT_1_PIN 7
 #define ROOMLIGHT_2_PIN 8
-#define DOORS_REV_PIN 9
-#define DOORS_FWD_PIN 10
+#define DOORS_REV_PIN 10
+#define DOORS_FWD_PIN 9
 #define LEDS_PIN 11
 #define SCANNER_BRAKE_FEET 12
 
@@ -103,7 +103,10 @@ void loop() {
       // Process the received byte
       switch (receivedByte) {
         case 0:
-          homeSequence();
+          handleHome(0);
+          break;
+        case 1:
+          handleHome(1);
           break;
         case 10:
           handleScanner(0);
@@ -292,6 +295,17 @@ void doorsHome() {
   delay(DOORS_CLOSE_DURATION);
 
   if (SEND_SERIAL) Serial.println("doors motor got to home");
+}
+
+void handleHome(int value) {
+  switch (value) {
+    case 0:
+      homeSequence();
+      break;
+    case 1:
+      scannerToFeetStart();
+      break;
+  }
 }
 
 void handleLEDs(int value) {
